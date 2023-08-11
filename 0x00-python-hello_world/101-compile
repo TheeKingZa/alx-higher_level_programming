@@ -1,5 +1,17 @@
 #!/bin/bash
-python3 -m py_compile $PYFILE
-mv __pycache__/*.pyc ./$PYFILE'c'
-chmod u+x $PYFILE'c'
+
+# Compile the Python script specified in the  environment variable
+python3 -m py_compile ""
+
+# Extract the filename (without extension) from the 
+filename=
+filename_no_extension=""
+
+# Move the compiled .pyc file from __pycache__ to the current directory
+mv "__pycache__/.cpython-*.pyc" "./c.pyc"
+
+# Make the compiled .pyc file executable
+chmod u+x "c.pyc"
+
+# Remove the __pycache__ directory
 rmdir __pycache__
