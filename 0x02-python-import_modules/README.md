@@ -71,7 +71,9 @@ if __name__ == "__main__":
 You can use the sys module to access command line arguments. Here's a basic example:
 
 =======code=======
+
 import sys
+
 
 # The first command line argument is the script name itself, so we skip it
 arguments = sys.argv[1:]
