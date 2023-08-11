@@ -1,27 +1,10 @@
 #!/usr/bin/python3
-"""
-0-add module
+# Importing the function from add_0.py
+from add_0 import add
 
-This module provides a simple addition function.
-"""
+# Assigning values to variables
+a = 1
+b = 2
 
-
-def add(a, b):
-    """
-    Add two integers.
-
-    Args:
-        a (int): The first integer.
-        b (int): The second integer.
-
-    Returns:
-        int: The sum of a and b.
-    """
-    return (a + b)
-
-
-if __name__ == "__main__":
-    a = 1
-    b = 2
-    result = add(a, b)
-    print(f"{a} + {b} = {result}")
+# Calling the add function and printing the result
+print(f"{a} + {b} = {add(a, b)}")
