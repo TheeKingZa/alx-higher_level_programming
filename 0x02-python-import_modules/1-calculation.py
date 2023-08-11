@@ -1,18 +1,13 @@
 #!/usr/bin/python3
-from calculator_1 import add, sub, mul, div
+if __name == "__main__":
+    """Print the calculations of 10 and 5."""
+    from calculator_1 import add, sub, mul, div
 
-# Assigning values to variables
-a = 10
-b = 5
+    a = 10
+    b = 5
 
-# Calling the imported functions and printing the results
-add_result = add(a, b)
-sub_result = sub(a, b)
-mul_result = mul(a, b)
-div_result = div(a, b)
-
-# Printing the results
-print(f"{a} + {b} = {add_result}")
-print(f"{a} - {b} = {sub_result}")
-print(f"{a} * {b} = {mul_result}")
-print(f"{a} / {b} = {div_result}")
+    # Printing the results
+    print("{a} + {b} = {}".format(a, b, add(a, b)))
+    print("{a} - {b} = {}".format(a, b, sub(a, b)))
+    print("{a} * {b} = {}".format(a, b, mul(a, b)))
+    print("{a} / {b} = {}".format(a, b, div(a, b)))
