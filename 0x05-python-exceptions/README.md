@@ -101,3 +101,17 @@ You can use the finally block to implement clean-up actions that need to occur r
 		if file:
 			file.close()
 =============================================================================
+------------------------
+4Advanced Tasks
+---------------
+
+* 100-safe_print_integer_err.py.
+--------------------------------
+* The safe_print_integer_err function first attempts to print the provided integer value using the "{:d}".format() format specifier.
+-----
+* If a TypeError or ValueError occurs during the formatting process (e.g., if value is not an integer), the respective exception is caught.
+-----
+* Inside the except block, an error message is printed to the standard error stream using the sys.stderr stream. The sys.exc_info() function is used to retrieve information about the current exception, and [1] accesses the exception message.
+-----
+* The function returns False to indicate that printing was not successful if an exception occurred, and True if printing was successful.
+--------------------------------------------------------------------------------
