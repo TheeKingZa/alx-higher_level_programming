@@ -14,10 +14,13 @@ class Square:
         """
         Initializes a new instance of the Square class.
         Args:
-            size (int, optional): The size of the square's sides. Defaults to 0.
+            size (int, optional): The size of the
+            square's sides. Defaults to 0.
         Raises:
-            TypeError: If size is not an integer.
-            ValueError: If size is less than 0.
+            TypeError:
+                If size is not an integer.
+            ValueError:
+                If size is less than 0.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
@@ -25,5 +28,10 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = size
 
-# Note: The constructor (__init__) now includes optional size parameter with default value 0.
-# Type and value verification is performed as required. Private instance attribute __size is set.
+
+"""
+Note: The constructor (__init__) now includes
+    an optional size parameter with default value 0.
+Type and value verification is performed as required.
+    Private instance attribute __size is set.
+"""
