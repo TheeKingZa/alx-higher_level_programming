@@ -14,8 +14,10 @@ class Square:
         """
         Initializes a new instance of the Square class.
         Args:
-            size (int, optional): The size of the square's sides. Defaults to 0.
-            position (tuple, optional): The position of the square. Defaults to (0, 0).
+            size (int, optional):
+                The size of the square's sides. Defaults to 0.
+            position (tuple, optional):
+                The position of the square. Defaults to (0, 0).
         Raises:
             TypeError: If size is not an integer.
             ValueError: If size is less than 0.
