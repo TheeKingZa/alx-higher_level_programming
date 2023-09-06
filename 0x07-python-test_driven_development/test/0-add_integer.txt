@@ -1,0 +1,12 @@
+Test Case "0-add_integer": Adding Two Integers
+Description:
+    This test case verifies that the add_integer function correctly adds two integers.
+
+Steps:
+1. Call the add_integer function with arguments (3, 5).
+2. The function checks if both arguments are integers or floats.
+3. Since both arguments are integers, it proceeds to add them.
+4. The function returns the result of the addition, which is 8.
+
+Expected Output:
+8
