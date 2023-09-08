@@ -1,0 +1,15 @@
+Test Case '3-say_my_name.py': Printing a Full Name
+Description:
+    This test case verifies that the say_my_name function correctly prints a full name composed of a first name and a last name.
+
+Steps:
+1. Prepare the input by setting first_name = "John" and last_name = "Smith".
+
+2. Check the validity of the input:
+   - Verify that both first_name and last_name are strings. Both are strings in this case.
+
+3. Print the message "My name is John Smith" to the console.
+
+Expected Output:
+My name is John Smith
+

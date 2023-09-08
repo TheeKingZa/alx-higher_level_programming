@@ -1,0 +1,21 @@
+Test Case '4-print_square.py': Printing a Square
+Description:
+    This test case verifies that the print_square function correctly prints a square composed of '#' characters.
+
+Steps:
+1. Prepare the input by setting size = 4.
+
+2. Check the validity of the input:
+   - Verify that size is an integer. It is in this case.
+   - Ensure that size is greater than or equal to 0. It is greater than or equal to 0 (size = 4).
+
+3. Proceed to print the square:
+   - The square should have 4 rows and 4 columns, and each position in the square should contain a '#' character.
+
+4. Print the square to the console:
+	
+
+	Expected Output:
+
+	
+In this example, the test case is described in a step-by-step manner without including the actual code. You can follow a similar format for documenting other test cases, providing a description of the test, the steps, and the expected output.

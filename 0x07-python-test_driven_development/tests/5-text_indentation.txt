@@ -1,0 +1,48 @@
+Test Case '5-text_indentation.txt': Text Indentation
+Description:
+    This test case verifies that the text_indentation function correctly processes and prints text with specific indentation rules.
+
+Steps:
+1. Prepare the input text, which is a multi-line string with various sentences and punctuation.
+   Example input text:
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere?
+Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud:
+Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere.
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum
+rationi oboediens. Si id dicis, vicimus. Inde sermone vario sex illa a Dipylo
+stadia confecimus. Sin aliud quid voles, postea. Quae animi affectio suum
+cuique tribuens atque hanc, quam dico. Utinam quidem dicerent alium alio
+beatiorem! Iam ruinas videres"
+
+
+2. Check the validity of the input:
+- Verify that  is a string. It is in this case.
+
+3. Split the input text into lines based on '.', '?', and ':' characters.
+
+4. Process and print the text:
+- Print the lines of text with 2 new lines after each '.', '?', and ':' character.
+- Ensure that there are no leading or trailing spaces in each printed line.
+
+5. Print the processed text to the console.
+
+Expected Output:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Quonam modo?
+Utrum igitur tibi litteram videor an totas paginas commovere?
+Non autem hoc:
+igitur ne illud quidem.
+Fortasse id optimum, sed ubi illud:
+Plus semper voluptatis?
+Teneo, inquit, finem illi videri nihil dolere.
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.
+Si id dicis, vicimus.
+Inde sermone vario sex illa a Dipylo stadia confecimus.
+Sin aliud quid voles, postea.
+Quae animi affectio suum cuique tribuens atque hanc, quam dico.
+Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
+
+
+
+In this example, the test case is described in a step-by-step manner without including the actual code. You can follow a similar format for documenting other test cases, providing a description of the test, the steps, and the expected output.
