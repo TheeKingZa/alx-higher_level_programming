@@ -117,3 +117,5 @@ issubclass(subclass, superclass): Checks if a class is a subclass of another cla
 type(object): Returns the type of an object.
 super(): Returns a temporary object of the superclass, allowing you to call its methods.
 These functions are useful for type checking, method resolution, and working with inheritance in Python.
+
+===================================================================================================
