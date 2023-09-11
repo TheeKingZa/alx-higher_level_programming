@@ -9,7 +9,7 @@ Methods:
 
 Test cases:
 
->>> from 1-my_list import MyList
+>>> in 1-my_list import MyList
 
 # Create a MyList object and append some integers
 >>> my_list = MyList()
