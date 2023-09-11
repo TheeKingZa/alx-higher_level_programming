@@ -3,5 +3,7 @@
 
 
 def inherits_from(obj, a_class):
-    """Checks if an object is an instance of a class inherited from a specified class"""
+    """Checks if an object is an
+    instance of a class inherited from a specified class
+    """
     return isinstance(obj, a_class) and type(obj) is not a_class
