@@ -1,35 +1,43 @@
-Test Case "2-matrix_divided": Dividing a Matrix by a Number
-Description:
-    This test case verifies that the matrix_divided function correctly divides all elements of a matrix by a given number and returns the expected result.
+# Importing the function for testing
+>>> from my_module import matrix_divided
 
-Steps:
-1. Prepare a matrix, for example:
-   matrix = [
-       [1, 2, 3],
-       [4, 5, 6]
-   ]
-   and set div = 3.
+# Testing with valid inputs
+>>> matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+>>> matrix_divided(matrix, 2)
+[[0.5, 1.0, 1.5], [2.0, 2.5, 3.0], [3.5, 4.0, 4.5]]
 
-2. Check the validity of the input:
-   - Verify that the matrix is a list of lists containing integers or floats.
-   - Ensure that each row of the matrix has the same size.
-   - Verify that div is a number and not equal to zero.
+# Testing with a different divisor
+>>> matrix_divided(matrix, 3)
+[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0], [2.33, 2.67, 3.0]]
 
-3. Proceed to divide each element of the matrix by div:
-   - 1 / 3 = 0.33 (rounded to 2 decimal places)
-   - 2 / 3 = 0.67 (rounded to 2 decimal places)
-   - 3 / 3 = 1.0 (rounded to 2 decimal places)
-   - 4 / 3 = 1.33 (rounded to 2 decimal places)
-   - 5 / 3 = 1.67 (rounded to 2 decimal places)
-   - 6 / 3 = 2.0 (rounded to 2 decimal places)
+# Testing with a matrix of all zeros
+>>> zero_matrix = [[0, 0], [0, 0]]
+>>> matrix_divided(zero_matrix, 5)
+[[0.0, 0.0], [0.0, 0.0]]
 
-4. Create a new matrix with the same dimensions as the input matrix but with elements updated to the rounded results:
-   result_matrix = [
-       [0.33, 0.67, 1.0],
-       [1.33, 1.67, 2.0]
-   ]
+# Testing with a single-element matrix
+>>> single_element_matrix = [[7]]
+>>> matrix_divided(single_element_matrix, 2)
+[[3.5]]
 
-5. Verify that the returned result from the matrix_divided function matches the expected result (result_matrix).
+# Testing with invalid inputs (should raise appropriate exceptions)
+>>> matrix_divided("invalid", 2)
+Traceback (most recent call last):
+    ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
-Expected Output:
-[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+>>> matrix_divided([[1, 2, 3], [4, 5], [6, 7, 8]], 2)
+Traceback (most recent call last):
+    ...
+TypeError: Each row of the matrix must have the same size
+
+>>> matrix_divided([[1, 2], [3, 4]], "invalid")
+Traceback (most recent call last):
+    ...
+TypeError: div must be a number (integer or float)
+
+>>> matrix_divided([[1, 2], [3, 4]], 0)
+Traceback (most recent call last):
+    ...
+ZeroDivisionError: division by zero
+
