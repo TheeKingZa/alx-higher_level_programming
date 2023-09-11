@@ -1,12 +1,24 @@
-Test Case "0-add_integer": Adding Two Integers
-Description:
-    This test case verifies that the add_integer function correctly adds two integers.
+# Importing the function for testing
+>>> from my_module import add_integer
 
-Steps:
-1. Call the add_integer function with arguments (3, 5).
-2. The function checks if both arguments are integers or floats.
-3. Since both arguments are integers, it proceeds to add them.
-4. The function returns the result of the addition, which is 8.
+# Testing with integers
+>>> add_integer(1, 2)
+3
 
-Expected Output:
-8
+# Testing with floats, they will be cast to integers
+>>> add_integer(1.0, 2.0)
+3
+
+# Testing with one integer and one float
+>>> add_integer(1, 2.0)
+3
+
+# Testing with two floats, both will be cast to integers
+>>> add_integer(1.5, 2.7)
+3
+
+# Testing with non-integer/non-float inputs (should raise a TypeError)
+>>> add_integer("1", 2)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer or b must be an integer
