@@ -1,22 +1,26 @@
 #!/usr/bin/python3
+"""
+Divide all elements of a matrix by a given divisor and round to 2 decimal places.
+
+Parameters:
+    matrix (list of lists): A matrix of integers or floats to be divided.
+    div (number, int or float): The divisor to divide all elements of the matrix.
+
+Returns:
+    list of lists: A new matrix with elements divided by the divisor and rounded to 2 decimal places.
+
+Raises:
+    TypeError: If the matrix is not a list of lists of integers or floats,
+            if the rows of the matrix have different sizes, or if div is not a number.
+    ZeroDivisionError: If div is equal to 0.
+"""
+    # Function implementation here
 def matrix_divided(matrix, div):
-    """
-    Divide all elements of a matrix by a given number.
+    # Check if the matrix is a list of lists of integers or floats
+    if not all(isinstance(row, list) and all(isinstance(elem, (int, float)) for elem in row) for row in matrix):
+        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
 
-    :param matrix: A list of lists containing integers or floats.
-    :param div: The number to divide all elements by
-        (integer or float).
-    :return: A new matrix with elements rounded to 2 decimal places.
-    """
-    # Check if matrix is a list of lists of integers or floats
-    if not isinstance(matrix, list)
-    or not all(isinstance(row, list) for row in matrix)
-    or not all(isinstance(num, (int, float)) for row in matrix for num in row):
-        raise TypeError("""
-        matrix must be a matrix (list of lists)
-        of integers/floats""")
-
-    # Check if all rows of the matrix have the same size
+    # Check if each row of the matrix has the same size
     if len(set(len(row) for row in matrix)) > 1:
         raise TypeError("Each row of the matrix must have the same size")
 
@@ -28,7 +32,7 @@ def matrix_divided(matrix, div):
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
-    # Perform division and round to 2 decimal places
-    result_matrix = [[round(num / div, 2) for num in row] for row in matrix]
+    # Divide all elements of the matrix by div, rounding to 2 decimal places
+    result_matrix = [[round(elem / div, 2) for elem in row] for row in matrix]
 
-    return (result_matrix)
+    return result_matrix
