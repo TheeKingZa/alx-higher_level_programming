@@ -13,7 +13,8 @@ class Square(Rectangle):
         self.__size = 0
         self.integer_validator("size", size)
         self.__size = size
-        super().__init__(size, size)  # Call the parent class constructor with size for width and height
+        super().__init__(size, size)
+        """Call the parent class constructor with size for width and height"""
 
     def area(self):
         """Calculates the area of the square"""
