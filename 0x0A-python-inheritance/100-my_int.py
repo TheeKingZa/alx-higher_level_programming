@@ -1,18 +1,24 @@
-
 #!/usr/bin/python3
-"""Defines
-MyINT class that inherits from int.
-"""
+"""Defines a class MyInt that inherits from int."""
 
 
+# Define a new class MyInt that inherits
+#    from the built-in int class.
 class MyInt(int):
-    def __init__(self, value):
-        super().__init__(value)
+    """Invert int operators == and !=."""
 
-    def __eq__(self, other):
-        # Invert the behavior of ==
-        return super().__ne__(other)
+    # Override the == operator to invert its behavior.
+    def __eq__(self, value):
+        """Override == operator with != behavior."""
+        # Compare the real value of the MyInt
+        # ..instance with the provided value.
+        # If they are not equal,
+        # Return True (inverted behavior).
+        return self.real != value
 
-    def __ne__(self, other):
-        # Invert the behavior of !=
-        return super().__eq__(other)
+    # Override the != operator to invert its behavior.
+    def __ne__(self, value):
+        """Override != operator with == behavior."""
+        # Compare the real value of the MyInt instance with the provided value.
+        # If they are equal, return True (inverted behavior).
+        return self.real == value
