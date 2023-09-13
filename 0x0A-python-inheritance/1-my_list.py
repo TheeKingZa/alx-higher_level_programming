@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """
+Define class MyList
 contains the MyList class
 """
 
