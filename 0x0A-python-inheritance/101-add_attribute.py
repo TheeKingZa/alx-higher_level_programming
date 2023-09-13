@@ -1,19 +1,26 @@
-def add_attribute(obj, attr_name, attr_value):
+#!/usr/bin/python3
+"""Defines a function that adds attributes to objects."""
+
+
+# Define a function named add_attribute.
+def add_attribute(obj, att, value):
     """
-    Adds a new attribute to an object if it's possible.
+    Add a new attribute to an object if possible.
 
     Args:
-        obj: The object to which the attribute should be added.
-        attr_name: The name of the new attribute.
-        attr_value: The value of the new attribute.
+        obj (any): The object to add an attribute to.
+        att (str): The name of the attribute to add to obj.
+        value (any): The value of att.
 
     Raises:
-        TypeError: If the object can't have new attributes.
+        TypeError: If the attribute cannot be added.
     """
-    # Check if the object is a dictionary or supports attribute assignment.
-    if hasattr(obj, '__dict__') or isinstance(obj, dict):
-        # The object allows adding attributes, so add the new attribute.
-        setattr(obj, attr_name, attr_value)
-    else:
-        # The object can't have new attributes, so raise a TypeError.
+    # Check if the object has a __dict__ attribute.
+    if not hasattr(obj, "__dict__"):
+        # If the object does not have __dict__, it cannot have new attributes.
+        # Raise a TypeError with the message "can't add new attribute."
         raise TypeError("can't add new attribute")
+
+    # If the object has a __dict__ attribute, it allows adding attributes.
+    # Use setattr to add the new attribute with the specified name and value.
+    setattr(obj, att, value)
