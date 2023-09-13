@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
-Define class MyList
-contains the MyList class
+This module defines the MyList class
+    a subclass of the built-in list class.
+
+The MyList class provides a method
+    to print the list in sorted (ascending) order.
 """
 
 
