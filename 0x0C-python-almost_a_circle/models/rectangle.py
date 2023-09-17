@@ -1,53 +1,27 @@
 #!/usr/bin/python3
-"""
-Module containing the RECTANGLE class.
-"""
-
 # models/rectangle.py
 
-# Import the Base class from base.py
-from models.base import Base
+import json
 
-
-class Rectangle(Base):
-    """Rectangle class
-    @ inherits from Base.
-    """
+class Rectangle:
+    """Class representing a RECTANGLE"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Initialize
-        Constructor for RECTANGLE class.
-
-        Args:
-        instance(int) with
-            @ width:
-                Width of the RECTANGLE.
-            @ height:
-                Height of the RECTANGLE.
-            @ x:
-                x-coordinate of the RECTANGLE's position.
-            @ y:
-                y-coordinate of the RECTANGLE's posistion.
-            @ id:
-                Id of instance..
-        """
-        # Call the constructor of the Base class with the provided id
-        super().__init__(id)
-        # Validate and assign instances.
+        """Initialize a Rectangle instance"""
+        self.id = id
         self.width = width
         self.height = height
         self.x = x
         self.y = y
 
-    # Getter and setter methods for private attributes
     @property
     def width(self):
-        """Getter for width attribute."""
+        """Getter for width attribute"""
         return self.__width
 
     @width.setter
     def width(self, value):
-        """Setter for width attribute."""
+        """Setter for width attribute"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -56,12 +30,12 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """Getter for height attribute."""
+        """Getter for height attribute"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """Setter for height attribute."""
+        """Setter for height attribute"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -70,12 +44,12 @@ class Rectangle(Base):
 
     @property
     def x(self):
-        """Getter for x attribute."""
+        """Getter for x attribute"""
         return self.__x
 
     @x.setter
     def x(self, value):
-        """Setter for x attribute."""
+        """Setter for x attribute"""
         if not isinstance(value, int):
             raise TypeError("x must be an integer")
         if value < 0:
@@ -84,12 +58,12 @@ class Rectangle(Base):
 
     @property
     def y(self):
-        """Getter for y attribute."""
+        """Getter for y attribute"""
         return self.__y
 
     @y.setter
     def y(self, value):
-        """Setter for y attribute."""
+        """Setter for y attribute"""
         if not isinstance(value, int):
             raise TypeError("y must be an integer")
         if value < 0:
@@ -97,69 +71,96 @@ class Rectangle(Base):
         self.__y = value
 
     def area(self):
-        """
-        Calculate and Return.
-        Area of RECTANGLE
-
-        Returns:
-            int:
-                Area of Rectangle.
-        """
-        return (self.width * self.height)
+        """Calculate and return the area of the rectangle"""
+        return self.__width * self.__height
 
     def display(self):
-        """
-        Display the RECTANGLE.
-        by printing '#' character.
-        """
-        for  _ in range(self.y):
-            print()
-        for _ in range(self.height):
-            print(" " * self.x + "#" * self.width)
+        """Print the rectangle's shape using '#' characters"""
+        result = ""
+        for _ in range(self.__y):
+            result += "\n"
+        for _ in range(self.__height):
+            result += ' ' * self.__x + '#' * self.__width + "\n"
+        return result
 
     def __str__(self):
-        """
-        Custom striing representation..
-        ..of the RECTANGLE instance.
-
-        Returns:
-            str:
-                A formatted string format.
-                representing Rectangle.
-        """
-        return (
-                f"[Rectangle] ({self.id}) {self.x}/{self.y} - "
-                f"{self.width}/{self.height}"
-        )
+        """Return a string representation of the rectangle"""
+        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
 
     def update(self, *args, **kwargs):
-        """
-        Update attributes of RECTANGLE instatnce.
-
-        Args:
-            *args (list):
-                values to update attributes in the order:
-                    - 1st argument: id attribute.
-                    - 2nd arg: width attr.
-                    - 3rd arg: height attr.
-                    - 4th arg: x attr.
-                    - 5th arg: y attr.
-            **kwargs (dict): Keyword arguments to update
-                        the attributes by name.
-        """
-        num_args = len(args)
+        """Update attributes using args and kwargs"""
         if args:
-            if num_args >=1:
-                self.id = args[0]
-            if num_args >= 2:
-                self.width = args[1]
-            if num_args >= 3:
-                self.height = args[2]
-            if num_args >= 4:
-                self.x = args[3]
-            if  num_args >= 5:
-                self.y = args[4]
+            attributes = ["id", "width", "height", "x", "y"]
+            for i, arg in enumerate(args):
+                setattr(self, attributes[i], arg)
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
+    def to_dictionary(self):
+        """Return the dictionary representation of a rectangle"""
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
+
+    @staticmethod
+    def to_json_string(list_rectangles):
+        """Convert a list of Rectangle instances to a JSON string"""
+        if list_rectangles is None or len(list_rectangles) == 0:
+            return "[]"
+        dict_list = [rectangle.to_dictionary() for rectangle in list_rectangles]
+        return json.dumps(dict_list)
+
+    @classmethod
+    def from_json_string(cls, json_string):
+        """Create a list of Rectangle instances from a JSON string"""
+        if json_string is None or json_string == "":
+            return []
+        dict_list = json.loads(json_string)
+        return [cls.create(**rectangle_dict) for rectangle_dict in dict_list]
+
+    @classmethod
+    def create(cls, **kwargs):
+        """Create a new Rectangle instance"""
+        id_arg = kwargs.get('id')
+        width_arg = kwargs.get('width')
+        height_arg = kwargs.get('height')
+        x_arg = kwargs.get('x', 0)
+        y_arg = kwargs.get('y', 0)
+        rectangle = cls(width_arg, height_arg, x_arg, y_arg, id_arg)
+        return rectangle
+
+    @classmethod
+    def load_from_file(cls):
+        """Load a list of rectangles from a JSON file"""
+        try:
+            with open(cls.__name__ + ".json", "r") as file:
+                json_data = file.read()
+                data = cls.from_json_string(json_data)
+                instances = []
+                for d in data:
+                    try:
+                        instance = cls.create(**d)
+                        instances.append(instance)
+                    except Exception as e:
+                        print(f"Error creating instance: {e}")
+                return instances
+        except FileNotFoundError:
+            return []
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        """Save a list of instances to a JSON file."""
+        if list_objs is None:
+            list_objs = []
+            # Convert the list of dictionaries to a JSON string
+            json_string = cls.to_json_string(list_objs)
+            # Write the JSON string to a file with
+            #the class name as the filename
+            filename = cls.__name__ + ".json"
+            with open(filename, "w") as file:
+                file.write(json_string)
