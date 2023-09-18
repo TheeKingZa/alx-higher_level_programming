@@ -105,12 +105,10 @@ class Rectangle(Base):
         """
         Display the rectangle by printing '#' characters.
         """
-        result = ""
         for _ in range(self.y):
-            result += "\n"
+            print()
         for _ in range(self.height):
-            result += ' ' * self.x + "#" * self.width + "\n"
-        return result
+            print(' ' * self.x + "#" * self.width)
 
     def __str__(self):
         """
@@ -124,17 +122,29 @@ class Rectangle(Base):
                 f" - {self.width}/{self.height}"
         )
 
-    def update(self, *args, **kwargs):
-        """
-        Update the attributes of the Rectangle instance.
-        """
-        attrs = ["id", "width", "height", "x", "y"]
-
         if args:
-            for i, arg in enumerate(args):
-                if i < len(attrs):
-                    setattr(self, attrs[i] arg)
+            if len(args) >= 1:
+                self.id = args[0]
+            if len(args) >= 2:
+                self.width = args[1]
+            if len(args) >= 3:
+                self.height = args[2]
+            if len(args) >= 4:
+                self.x = args[3]
+            if len(args) >= 5:
+                self.y = args[4]
         else:
             for key, value in kwargs.items():
-                if key in attrs:
-                    setattr(self, key, value)
+                setattr(self, key, value)
+
+    def to_dictionary(self):
+        """Return
+        the dictionary representation of a rectangle.
+        """
+        return {
+                "id": self.id,
+                "width": self.width,
+                "height": self.height,
+                "x": self.x,
+                "y": self.y
+        }
