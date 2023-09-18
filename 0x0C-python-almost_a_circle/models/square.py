@@ -36,7 +36,8 @@ class Square(Rectangle):
             for i, arg in enumerate(args):
                 setattr(self, attributes[i], arg)
         else:
-            # If args is empty, use kwargs (keyworded arguments) to assign attributes
+            # If args is empty, use kwargs
+            # (keyworded arguments) to assign attributes
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
@@ -73,7 +74,8 @@ class Square(Rectangle):
             return []
         # Use json.loads to convert the JSON string to a list of dictionaries
         dict_list = json.loads(json_string)
-        # Use list comprehension to create Square instances from the dictionaries
+        # Use list comprehension
+        # to create Square instances from the dictionaries
         return [Square.create(**square_dict) for square_dict in dict_list]
 
     @classmethod
@@ -82,7 +84,8 @@ class Square(Rectangle):
         if squares is None or len(squares) == 0:
             json_data = "[]"
         else:
-            # Convert the list of squares to a JSON string using to_json_string method
+            # Convert the list of squares to
+            # a JSON string using to_json_string method
             json_data = cls.to_json_string(
                     [s.to_dictionary() for s in squares]
             )
@@ -100,7 +103,8 @@ class Square(Rectangle):
                 instances = []
                 for d in data:
                     try:
-                        # Create instances from the loaded data using create method
+                        # Create instances from the
+                        # loaded data using create method
                         instance = cls.create(**d)
                         instances.append(instance)
                     except Exception as e:
