@@ -4,8 +4,9 @@
 import json
 from models.rectangle import Rectangle
 
+
 class Square(Rectangle):
-    """Class Representing a SQUARE"""
+    """Class of a SQUARE"""
     def __init__(self, size, x=0, y=0, id=None):
         """Initialize Square instance"""
         # Initialize a Square by calling the constructor of the Rectangle class
@@ -125,12 +126,10 @@ class Square(Rectangle):
 
     def display(self):
         """Prints the Square's shape using '#' characters"""
-        result = ""
         for _ in range(self.y):
-            result += "\n"
+            print()
         for _ in range(self.height):
-            result += ' ' * self.x + '#' * self.width + "\n"
-        return result
+            print(' ' * self.x + '#' * self.width)
 
     def __str__(self):
         """Return String representation of the square"""

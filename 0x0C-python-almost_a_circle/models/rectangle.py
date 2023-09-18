@@ -26,6 +26,10 @@ class Rectangle(Base):
         # Call the constructor of the Base class to handle the ID.
         super().__init__(id)
         # Validate and assign width, height, x, and y attributes.
+        self.__width = 0
+        self.__height = 0
+        self.__x = 0
+        self.__y = 0
         self.width = width
         self.height = height
         self.x = x
