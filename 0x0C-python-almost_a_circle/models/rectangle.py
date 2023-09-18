@@ -104,12 +104,13 @@ class Rectangle(Base):
     def display(self):
         """
         Display the rectangle by printing '#' characters.
-        Does not consider x and y coordinates.
         """
+        result = ""
         for _ in range(self.y):
-            print()
+            result += "\n"
         for _ in range(self.height):
-            print("" * self.x + "#" * self.width)
+            result += ' ' * self.x + "#" * self.width + "\n"
+        return result
 
     def __str__(self):
         """
