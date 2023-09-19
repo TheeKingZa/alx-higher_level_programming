@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Module containing the Rectangle class.
+Representing a RECTANGLE.
 """
 from models.base import Base
 
@@ -123,6 +124,17 @@ class Rectangle(Base):
         )
 
     def update(self, *args, **kwargs):
+        """Update
+        the attributes of RECTANGLE instance.
+
+        Args:
+            *args:
+                if provided.
+                assign values to attribute in order
+            *kwargs:
+                if provided.
+                assigns values to attributes using key_value.
+        """
         largs = len(args)
         # arg length
         if args:
