@@ -149,8 +149,8 @@ class Rectangle(Base):
             if largs >= 5:
                 self.y = args[4]
         else:
-           for key, value in kwargs.items():
-               setattr(self, key, value)
+            for key, value in kwargs.items():
+                setattr(self, key, value)
 
     def to_dictionary(self):
         """Return
