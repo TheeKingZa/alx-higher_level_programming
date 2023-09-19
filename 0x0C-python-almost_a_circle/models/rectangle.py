@@ -121,7 +121,7 @@ class Rectangle(Base):
                 f"[Rectangle] ({self.id}) {self.x}/{self.y}"
                 f" - {self.width}/{self.height}"
         )
-
+    def update(self, *args): 
         if args:
             if len(args) >= 1:
                 self.id = args[0]
