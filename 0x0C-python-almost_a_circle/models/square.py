@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # models/square.py
-
+"""
+Module contains the square.
+representation of square inherits from Recatangle.
+"""
 import json
 from models.rectangle import Rectangle
 
