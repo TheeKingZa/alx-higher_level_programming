@@ -121,21 +121,24 @@ class Rectangle(Base):
                 f"[Rectangle] ({self.id}) {self.x}/{self.y}"
                 f" - {self.width}/{self.height}"
         )
-    def update(self, *args): 
+
+    def update(self, *args, **kwargs):
+        largs = len(args)
+        # arg length
         if args:
-            if len(args) >= 1:
+            if largs >= 1:
                 self.id = args[0]
-            if len(args) >= 2:
+            if largs >= 2:
                 self.width = args[1]
-            if len(args) >= 3:
+            if largs >= 3:
                 self.height = args[2]
-            if len(args) >= 4:
+            if largs >= 4:
                 self.x = args[3]
-            if len(args) >= 5:
+            if largs >= 5:
                 self.y = args[4]
-#        else:
-#           for key, value in kwargs.items():
-#               setattr(self, key, value)
+        else:
+           for key, value in kwargs.items():
+               setattr(self, key, value)
 
     def to_dictionary(self):
         """Return
