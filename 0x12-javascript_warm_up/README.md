@@ -8,7 +8,7 @@
 - [Why JavaScript programming is amazing?](#why-JavaScript-programming-is-amazing)
 - [How to run a JavaScript?](#how-to-run-a-javascript-script)
 - [How to create variables and constants?](#how-to-create-variables-and-constants)
-- [What are differences between var, const and let?](#differences-between-var,-const-and-let)
+- [What are differences between var, const and let?](#differences-between-var-const-and-let)
 - [What are all the data types available in JavaScript?](#what-are-all-the-data-types-available-in-JavaScript)
 - [How to use the if, if ... else statements?](#how-to-use-the-if,-if-...-else-statements)
 - [How to use comments?](#how-to-use-comments)
