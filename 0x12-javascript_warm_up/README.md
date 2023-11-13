@@ -5,8 +5,8 @@
 
  NEED TO KNOW?
  --------------
-- [How to install node 14](install-node-14)
-- [Install semi-standard](semi-standard)
+- [How to install node 14](#install-node-14)
+- [Install semi-standard](#semi-standard)
 - [Why JavaScript programming is amazing?](#why-JavaScript-programming-is-amazing)
 - [How to run a JavaScript?](#how-to-run-a-javascript-script)
 - [How to create variables and constants?](#how-to-create-variables-and-constants)
@@ -31,7 +31,7 @@
 	$ sudo apt-get install -y nodejs
 
 # Semi-standard
-	[Documentation](www.https://github.com/standard/semistandard)
+	[Documentation](#www.https://github.com/standard/semistandard)
 	$ sudo npm install semistandard --global
 
 # Why JavaScript Programming is Amazing?
