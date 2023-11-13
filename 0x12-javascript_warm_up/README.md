@@ -6,7 +6,7 @@
  NEED TO KNOW?
  --------------
 
-* [Why JavaScript programming is amazing?](why_JavaScript_programming_is_amazing?)
+* [Why JavaScript programming is amazing?](why_JavaScript_programming_is_amazing)
 * How to run a JavaScript script?
 * How to create variables and constants?
 * What are differences between var, const and let?
@@ -25,12 +25,12 @@
 
 -----------------------------------------------------------------------------
 
-* Why JavaScript Programming is Amazing
----------------------------------------
+* Why JavaScript Programming is Amazing?
+-----------------------------------------
   JavaScript is an incredibly versatile programming language that runs in web browsers, making it an essential tool for web development. Its ability to create dynamic and interactive web pages makes it a powerful language in the world of front-end and back-end development.
 
-* How to Run a JavaScript Script
----------------------------------
+* How to Run a JavaScript Script?
+-----------------------------------
   To run a JavaScript script, you can use a web browser console, Node.js runtime, or an integrated development environment (IDE) like Visual Studio Code. For web browsers, you can include your script in an HTML file and open it in a browser.
 
 javajs
@@ -50,7 +50,7 @@ javajs
 
 ------------------------------------
 
-* How to Create Variables and Constants
+* How to Create Variables and Constants?
 ----------------------------------------
   In JavaScript, you can create variables using var, let, or const keywords.
 
@@ -74,7 +74,7 @@ let message = "Hello, World!";
   - const: Constant variable that cannot be re-assigned.
   - let: Block-scoped variable that can be re-assigned.
 
-* Data Types in JavaScript
+* Data Types in JavaScript?
 ---------------------------
   JavaScript has several data types, including:
     - Number.
@@ -85,7 +85,7 @@ let message = "Hello, World!";
     - Null.
     - Undefined.
 
-* How to Use if, if...else Statements
+* How to Use if, if...else Statements?
 --------------------------------------
   Conditional statements allow you to make decisions in your code.
 
@@ -102,7 +102,7 @@ if (x > 5) {
 
 --------------------------------------------------------------------------
 
-* How to Use Comments
+* How to Use Comments?
 ----------------------
 
 Comments in JavaScript are crucial for code readability.
@@ -122,6 +122,7 @@ javasript
 ---------------------------------------------------------------------------
 
 * How to Affect Values to Variables?
+------------------------------------
 
   javascript
   ==Code==
