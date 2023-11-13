@@ -6,7 +6,7 @@
  NEED TO KNOW?
  --------------
 
-* [Why JavaScript programming is amazing?](why_JavaScript_programming_is_amazing)
+* [Why JavaScript programming is amazing?](#why_JavaScript_programming_is_amazing)
 * How to run a JavaScript script?
 * How to create variables and constants?
 * What are differences between var, const and let?
