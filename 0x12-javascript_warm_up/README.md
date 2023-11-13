@@ -25,11 +25,11 @@
 
 -----------------------------------------------------------------------------
 
-* #Why JavaScript Programming is Amazing?
+# Why JavaScript Programming is Amazing?
 -----------------------------------------
   JavaScript is an incredibly versatile programming language that runs in web browsers, making it an essential tool for web development. Its ability to create dynamic and interactive web pages makes it a powerful language in the world of front-end and back-end development.
 
-# * How to Run a JavaScript Script?
+#  How to Run a JavaScript Script?
 -----------------------------------
   To run a JavaScript script, you can use a web browser console, Node.js runtime, or an integrated development environment (IDE) like Visual Studio Code. For web browsers, you can include your script in an HTML file and open it in a browser.
 
@@ -50,7 +50,7 @@ javajs
 
 ------------------------------------
 
-* How to Create Variables and Constants?
+# How to Create Variables and Constants?
 ----------------------------------------
   In JavaScript, you can create variables using var, let, or const keywords.
 
@@ -68,13 +68,13 @@ let message = "Hello, World!";
 
 ---------------------------------------------
 
-* Differences Between var, const, and let?
+# Differences Between var, const, and let?
 ------------------------------------------
   - var: Function-scoped variable.
   - const: Constant variable that cannot be re-assigned.
   - let: Block-scoped variable that can be re-assigned.
 
-* Data Types in JavaScript?
+# Data Types in JavaScript?
 ---------------------------
   JavaScript has several data types, including:
     - Number.
@@ -85,7 +85,7 @@ let message = "Hello, World!";
     - Null.
     - Undefined.
 
-* How to Use if, if...else Statements?
+# How to Use if, if...else Statements?
 --------------------------------------
   Conditional statements allow you to make decisions in your code.
 
@@ -102,7 +102,7 @@ if (x > 5) {
 
 --------------------------------------------------------------------------
 
-* How to Use Comments?
+# How to Use Comments?
 ----------------------
 
 Comments in JavaScript are crucial for code readability.
@@ -121,7 +121,7 @@ javasript
 
 ---------------------------------------------------------------------------
 
-* How to Affect Values to Variables?
+# How to Affect Values to Variables?
 ------------------------------------
 
   javascript
@@ -132,7 +132,7 @@ x = x + 3; // x now holds the value 8
 
 ---------------------------------------------------------------------------
 
-* How to use while and for loops?
+# How to use while and for loops?
 -----------------------------------
   Loops help you repeat actions in your code.
 
@@ -152,7 +152,7 @@ for (let j = 0; j < 5; j++) {
 }
 ----------------------------------------------------------------------------
 
-* How to Use break and continue Statements?
+# How to Use break and continue Statements?
 -------------------------------------------
   break is used to exit a loop, and continue is used to skip the current iteration and move to the next one.
 
@@ -175,7 +175,7 @@ for (let i = 0; i < 10; i++) {
 
 -----------------------------------------------------------------------------
 
-* What is a Function and How to Use Functions?
+# What is a Function and How to Use Functions?
 ----------------------------------------------
   Functions in JavaScript allow you to encapsulate a block of code for reuse.
 
@@ -190,7 +190,7 @@ greet("John");
 
 -----------------------------------------------------------------------------
 
-* What Does a Function That Does Not Use any Return Statement Return?
+# What Does a Function That Does Not Use any Return Statement Return?
 ----------------------------------------------------------------------
   A function without a return statement returns undefined by default.
 
@@ -206,7 +206,7 @@ console.log(result); // Outputs: undefined
 
 -----------------------------------------------------------------------------
 
-* Scope of Variables?
+# Scope of Variables?
 ---------------------
   Variables in JavaScript have function scope (for var) or block scope (for let and const).
 
@@ -223,7 +223,7 @@ console.log(blockVar); // ReferenceError: blockVar is not defined
 
 -----------------------------------------------------------------------------
 
-* Arithmetic Operators and How to Use Them? 
+# Arithmetic Operators and How to Use Them? 
 -------------------------------------------
   JavaScript supports various arithmetic operators for numerical operations.
 
@@ -241,7 +241,7 @@ let remainder = a % b;
 
 -----------------------------------------------------------------------------
 
-* How to Manipulate Dictionary?
+# How to Manipulate Dictionary?
 -------------------------------
   JavaScript objects can be used as dictionaries.
 
@@ -258,7 +258,7 @@ console.log(person.name); // Outputs: John
 
 -----------------------------------------------------------------------------
 
-* How to Import a File?
+# How to Import a File?
 -----------------------
   In browser-based JavaScript, you can include other scripts using the script tag in HTML. For Node.js, you can use require or import statements.
 
@@ -275,7 +275,3 @@ import { someFunction } from './anotherModule';
 
 Feel free to explore these concepts further by experimenting with code examples and building small projects.
 Happy coding!
-
-
-
-  
