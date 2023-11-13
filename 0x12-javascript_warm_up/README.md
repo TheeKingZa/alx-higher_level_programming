@@ -6,8 +6,8 @@
  NEED TO KNOW?
  --------------
 
-* [Why JavaScript programming is amazing?](#why_JavaScript_programming_is_amazing)
-* [How to run a JavaScript?](#how_to_run_a_javascript)
+* [Why JavaScript programming is amazing?](#why_JavaScript_programming_is_amazing?)
+* [How to run a JavaScript?](#how_to_run_a_javascript?)
 * How to create variables and constants?
 * What are differences between var, const and let?
 * What are all the data types available in JavaScript?
@@ -26,7 +26,6 @@
 -----------------------------------------------------------------------------
 
 # Why JavaScript Programming is Amazing?
------------------------------------------
   JavaScript is an incredibly versatile programming language that runs in web browsers, making it an essential tool for web development. Its ability to create dynamic and interactive web pages makes it a powerful language in the world of front-end and back-end development.
 
 #  How to Run a JavaScript Script?
