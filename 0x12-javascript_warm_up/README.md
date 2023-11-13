@@ -5,6 +5,8 @@
 
  NEED TO KNOW?
  --------------
+- [How to install node 14](install-node-14)
+- [Install semi-standard](semi-standard)
 - [Why JavaScript programming is amazing?](#why-JavaScript-programming-is-amazing)
 - [How to run a JavaScript?](#how-to-run-a-javascript-script)
 - [How to create variables and constants?](#how-to-create-variables-and-constants)
@@ -22,7 +24,15 @@
 - [How to manipulate dictionary?](#how-to-manipulate-dictionary)
 - [How to import a file?](#how-to-import-a-file)
 
------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+# Install Node 14
+	$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+	$ sudo apt-get install -y nodejs
+
+# Semi-standard
+	[Documentation](www.https://github.com/standard/semistandard)
+	$ sudo npm install semistandard --global
 
 # Why JavaScript Programming is Amazing?
   JavaScript is an incredibly versatile programming language that runs in web browsers, making it an essential tool for web development. Its ability to create dynamic and interactive web pages makes it a powerful language in the world of front-end and back-end development.
