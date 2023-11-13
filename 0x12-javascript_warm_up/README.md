@@ -282,11 +282,9 @@ const otherModule = require('./otherModule');
 // ES6 import
 import { someFunction } from './anotherModule';
 
-- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 Feel free to explore these concepts further by experimenting with code examples and building small projects.
 Happy coding!
 
-- [back to top](#need-to-know)
 - [back to top](#need-to-know)
