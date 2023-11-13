@@ -5,7 +5,6 @@
 
  NEED TO KNOW?
  --------------
-
 - [Why JavaScript programming is amazing?](#why-JavaScript-programming-is-amazing)
 - [How to run a JavaScript?](#how-to-run-a-javascript-script)
 - [How to create variables and constants?](#how-to-create-variables-and-constants)
@@ -47,6 +46,7 @@ javajs
 </body>
 </html>
 
+- [back to top](#need-to-know)
 ------------------------------------
 
 # How to Create Variables and Constants?
@@ -84,6 +84,8 @@ let message = "Hello, World!";
     - Null.
     - Undefined.
 
+  - [back to top](#need-to-know)
+----------------------------------------------------
 # How to Use if, if...else Statements?
 --------------------------------------
   Conditional statements allow you to make decisions in your code.
@@ -99,6 +101,8 @@ if (x > 5) {
     console.log("x is less than or equal to 5");
 }
 
+
+- [back to top](#need-to-know)
 --------------------------------------------------------------------------
 
 # How to Use Comments?
@@ -149,6 +153,8 @@ while (i < 5) {
 for (let j = 0; j < 5; j++) {
     console.log(j);
 }
+
+- [back to top](#need-to-know)
 ----------------------------------------------------------------------------
 
 # How to Use break and continue Statements?
@@ -172,6 +178,8 @@ for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 
+
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 # What is a Function and How to Use Functions?
@@ -203,6 +211,7 @@ function noReturn() {
 let result = noReturn();
 console.log(result); // Outputs: undefined
 
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 # Scope of Variables?
@@ -220,6 +229,7 @@ if (true) {
 console.log(localVar); // Works
 console.log(blockVar); // ReferenceError: blockVar is not defined
 
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 # Arithmetic Operators and How to Use Them? 
@@ -238,6 +248,7 @@ let product = a * b;
 let quotient = a / b;
 let remainder = a % b;
 
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 # How to Manipulate Dictionary?
@@ -255,6 +266,7 @@ let person = {
 
 console.log(person.name); // Outputs: John
 
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 # How to Import a File?
@@ -270,7 +282,11 @@ const otherModule = require('./otherModule');
 // ES6 import
 import { someFunction } from './anotherModule';
 
+- [back to top](#need-to-know)
 -----------------------------------------------------------------------------
 
 Feel free to explore these concepts further by experimenting with code examples and building small projects.
 Happy coding!
+
+- [back to top](#need-to-know)
+- [back to top](#need-to-know)
