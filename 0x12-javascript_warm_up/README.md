@@ -18,7 +18,7 @@
 - [What is a function and how do you use functions?](#what-is-a-function-and-how-do-you-use-functions)
 - [What does a function that does not use any return statement return?](#what-does-a-function-that-does-not-use-any-return-statement-return)
 - [Scope of variables?](#scope-of-variables)
-- [What are the arithmetic operators and how to use them?](#what-are-the-arithmetic-operators-and-how-to-use-them)
+- [What are the arithmetic operators and how to use them?](#arithmetic-operators-and-how-to-use-them)
 - [How to manipulate dictionary?](#how-to-manipulate-dictionary)
 - [How to import a file?](#how-to-import-a-file)
 
