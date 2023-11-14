@@ -62,4 +62,5 @@ You can create a database in MySQL using the SQL command: CREATE DATABASE databa
 
 # How to use MySQL functions:
   * MySQL provides various built-in functions for performing operations on data, such as mathematical calculations, string manipulation, date and time functions, and more. You can use these functions in your SQL queries to process and retrieve data efficiently.
-====[back to top](#0x0D)
+--------------------------------------------------
+[back to top](#0x0D)
