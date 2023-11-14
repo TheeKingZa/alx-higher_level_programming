@@ -72,3 +72,6 @@ Dog.prototype = Object.create(Animal.prototype);
 let myDog = new Dog('Buddy', 'Golden Retriever');
 
 Feel free to customize this README to fit your specific needs. Happy coding!
+
+
+[Back to top](#0x13)
