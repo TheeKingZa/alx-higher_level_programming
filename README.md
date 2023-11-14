@@ -31,47 +31,6 @@ The name 'Python' does not come from the snake. Instead, it is inspired by the B
 
 The Zen of Python is a collection of guiding principles for writing computer programs in the Python language. It's accessed by entering import this in a Python interpreter. It includes aphorisms like "Readability counts," "Sparse is better than dense," and "Special cases aren't special enough to break the rules."
 
-To use the Python interpreter:
-
-Open a terminal or command prompt.
-1.Type python and press Enter to start the interpreter.
-2.You can enter Python code directly and see the output interactively.
-3.To print text and variables using the print function:
----------
-py--code
----------
-text = "Hello, Python!"
-print(text)
-variable = 42
-print("The answer is:", variable)
------
-Strings in Python are created using single or double quotes:
-
---code--
-string1 = 'Single quotes'
-string2 = "Double quotes"
 ---------------------------
-
-Indexing and slicing are used to access specific elements or portions of sequences (like strings, lists, etc.). Indexing starts from 0, and negative indices count from the end:
-
-------
-text = "Python"
-first_char = text[0]  # 'P'
-last_char = text[-1]   # 'n'
-substring = text[1:4]  # 'yth'
-----------------------------
-
-The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
-
-1.Install pycodestyle using pip:
----
-pip install pycodestyle
----
-
-2.Run pycodestyle on your Python file:
----
-pycodestyle your_file.py
----
-
-This tool will point out any style violations according to the PEP 8 guidelines.
+MySQL, Javascript  and more 
 ====================================================================================
