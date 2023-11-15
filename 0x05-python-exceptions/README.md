@@ -7,7 +7,7 @@
 * [When do we need to use exceptions?](#when-do-we-need-to-use-exceptions)
 * [How to correctly handle an exception?](#how-to-correctly-handle-an-exception)
 * [What’s the purpose of catching exceptions?](#whats-the-purpose-of-catching-exceptions)
-* [How to raise a builtin exception?](#how-to-raise-a-builtin-exception)
+* [How to raise a builtin exception?](#how-to-raise-a-built-in-exception)
 * [When do we need to implement a clean-up action after an exception?](#when-do-we-need-to-implement-a-clean-up-action-after-an-exception)
 
 # What’s the difference between errors and exceptions?
