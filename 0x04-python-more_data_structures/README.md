@@ -120,4 +120,4 @@
                               sum_result = reduce(lambda x, y: x + y, numbers)
 
 -------------------------------------------------------------------
-[^](#need-to-know)
+[^](#more-data-structures)
