@@ -1,4 +1,5 @@
-[<]()# IF, Else, Loops and Functions[>]()
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x00-python-hello_world/README.md) [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/0x00-python-hello_world/README.md)
+# IF, Else, Loops and Functions
 
 * Python Programming Basics
     *Welcome to the world of Python programming! This README.md guide will introduce you to some fundamental concepts and features of Python that make it an awesome programming language to work with.
