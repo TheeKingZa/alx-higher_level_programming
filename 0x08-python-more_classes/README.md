@@ -6,7 +6,7 @@ NEED TO KNOW?
 -------------
 * [What is OOP?]()
 * [“first-class everything”?]()
-* [“first-class* [What is a class?]()
+* [What is a class?]()
 * [What is an object and an instance?]()
 * [What is the difference between a class and an object or instance?]()
 * [What is an attribute?]()
