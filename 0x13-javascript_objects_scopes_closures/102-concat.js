@@ -12,4 +12,3 @@ const sArg = fs.readFileSync(process.argv[3]).toString();
 // Concatenate the contents of the two files
 // Write the concatenated content to a new file specified by the third command-line argument
 fs.writeFileSync(process.argv[4], fArg + sArg);
-

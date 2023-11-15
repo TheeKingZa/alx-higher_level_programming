@@ -4,7 +4,7 @@
 // Define a class named 'Rectangle'.
 class Rectangle {
   // Constructor method to initialize 'width' and 'height'.
-  constructor(w, h) {
+  constructor (w, h) {
     // Check if both 'w' and 'h' are greater than 0.
     if ((w > 0) && (h > 0)) {
       // If true, set 'width' and 'height' properties.
@@ -14,7 +14,7 @@ class Rectangle {
   }
 
   // Method to print a rectangle to the console.
-  print() {
+  print () {
     // Iterate over each row (height).
     for (let i = 0; i < this.height; i++) {
       let s = '';
