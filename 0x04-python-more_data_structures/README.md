@@ -47,7 +47,7 @@
 # Iterating over a Set or Dictionary:
           You can use a for loop to iterate over both sets and dictionaries:
 
-                    code--
+                    code
                               # Iterating over a set
                               for item in my_set:
                                         print(item)
@@ -59,12 +59,16 @@
 
 
 # Dictionaries:
-          A dictionary is a collection of key-value pairs, where each key is unique. Keys are used to access values. In Python, dictionaries are created using curly braces {} and colons to separate keys and values.
+          A dictionary is a collection of 
+          key-value pairs, where each key is unique. 
+                    Keys are used to access values.
+          In Python, dictionaries are created using curly braces {} 
+          and colons to separate keys and values.
 
-          --code--
+          code
 
-          # Creating a dictionary
-          my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+                    # Creating a dictionary
+                    my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
 
 # Common operations and methods with dictionaries:
           Accessing values:
