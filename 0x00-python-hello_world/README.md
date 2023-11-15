@@ -7,8 +7,8 @@ Python programming is considered awesome for several reasons:
 * [Why Python programming is awesome?](#why-Python-programming-is-awesome)
 * [Who created Python?](https://en.wikipedia.org/wiki/Guido_van_Rossum)
 * [Who is Guido van Rossum?](#who-is-guido-van-rossum)
-	* Where does the name ‘[Python](#python)’ come from?
-	* What is the [Zen of Python](#zen_of_python)
+	* Where does the name ‘Python’ come from?
+	* What is the Zen of Python?
 * [How to use the Python interpreter?](#To-use-the-python-interpreter)
 * How to print text and variables using print?
 * How to use strings?
@@ -38,7 +38,7 @@ Python programming is considered awesome for several reasons:
 
 	The name 'Python' does not come from the snake. Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus," which Guido van Rossum enjoyed. The name was chosen to be memorable and not directly related to programming.
 
-	The [# Zen of Python] is a collection of guiding principles for writing computer programs in the Python language. It's accessed by entering import this in a Python interpreter. It includes aphorisms like "Readability counts," "Sparse is better than dense," and "Special cases aren't special enough to break the rules."
+	The Zen of Python is a collection of guiding principles for writing computer programs in the Python language. It's accessed by entering import this in a Python interpreter. It includes aphorisms like "Readability counts," "Sparse is better than dense," and "Special cases aren't special enough to break the rules."
 
 # To use the Python interpreter:
 
