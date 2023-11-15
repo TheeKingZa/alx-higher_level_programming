@@ -4,8 +4,9 @@ Starting With Python Here.
 Python programming is considered awesome for several reasons:
 
 # NEED TO KNOW?
-* Who created Python?
-* Who is Guido van Rossum?
+* [Why Python programming is awesome?](#why-Python-programming-is-awesome)
+* [Who created Python?](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+* [Who is Guido van Rossum?](#who-is-guido-van-rossum)
 * Where does the name ‘Python’ come from?
 * What is the Zen of Python?
 * How to use the Python interpreter?
@@ -14,6 +15,7 @@ Python programming is considered awesome for several reasons:
 * What are indexing and slicing in Python?
 * What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
 -------
+# Why Python programming is awesome
 	* Readable and Concise Code:
 		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
 	* Wide Range of Applications:
