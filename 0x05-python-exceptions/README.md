@@ -6,9 +6,9 @@
 * [What are exceptions and how to use them?](#to-use-exceptions)
 * [When do we need to use exceptions?](#when-do-we-need-to-use-exceptions)
 * [How to correctly handle an exception?](#how-to-correctly-handle-an-exception)
-* [What’s the purpose of catching exceptions?](whats-the-purpose-of-catching-exceptions)
+* [What’s the purpose of catching exceptions?](#whats-the-purpose-of-catching-exceptions)
 * [How to raise a builtin exception?](#how-to-raise-a-builtin-exception)
-* [When do we need to implement a clean-up action after an exception?](when-do-we-need-to-implement-a-clean-up-action-after-an-exception)
+* [When do we need to implement a clean-up action after an exception?](#when-do-we-need-to-implement-a-clean-up-action-after-an-exception)
 
 # What’s the difference between errors and exceptions?
 	In Python, errors and exceptions are terms often used interchangeably but have distinct meanings. An error is a generic term for any unexpected behavior that disrupts the normal execution of a program. On the other hand, an exception is a specific event that indicates a problem during the execution of a program, leading to the generation of an exception object.
