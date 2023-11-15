@@ -33,6 +33,7 @@ Python programming is considered awesome for several reasons:
 		* Python supports both object-oriented and functional programming paradigms, allowing developers to choose the approach that best suits their needs.
 
 [^](#hello-world)
+
 # Who is [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)?
 	In the late 1980s and was first released in 1991.
  	Guido van Rossum is a Dutch programmer who is often referred to as
@@ -52,6 +53,7 @@ Python programming is considered awesome for several reasons:
    	aren't special enough to break the rules."
     
 [^](#hello-world)
+
 # To use the Python interpreter:
 
 	Open a terminal or command prompt.
@@ -64,7 +66,9 @@ Python programming is considered awesome for several reasons:
 		print(text)
 		variable = 42
 		print("The answer is:", variable)
+
 [^](#hello-world)
+
 # How to use strings?
 	Strings in Python are created using single or double quotes:
 		--code--
@@ -72,6 +76,7 @@ Python programming is considered awesome for several reasons:
 			string2 = "Double quotes"
 
 [^](#hello-world)
+
 # What are indexing and slicing in Python?
 
 Indexing and slicing are used to access specific elements or portions of sequences (like strings, lists, etc.). Indexing starts from 0, and negative indices count from the end:
@@ -82,6 +87,7 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 	substring = text[1:4]  # 'yth'
 
 [^](#hello-world)
+
 # [PEP8](#pep8)
 	The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
 
@@ -96,4 +102,3 @@ This tool will point out any style violations according to the PEP 8 guidelines.
 
 
 [^](#hello-world)
-
