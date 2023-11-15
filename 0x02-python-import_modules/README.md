@@ -23,24 +23,21 @@
     Once you've imported a function, you can use it just like any other function in your script. In the example above, we used my_module.my_function() to call the imported function.
 
 # How to create a module:
-
-A module is simply a Python file containing functions, classes, and variables. You can create a module by creating a .py file. For example, to create a module named my_module, create a file named my_module.py and define your functions, classes, and variables in it.
+    A module is simply a Python file containing functions, classes, and variables. You can create a module by creating a .py file. For example, to create a module named my_module, create a file named my_module.py and define your functions, classes, and variables in it.
 
 ----------------------------------------------
 # How to use the built-in function dir():
-----------------------------------------------
-The dir() function is used to find out what names a module or object defines. It returns a list of valid attributes for the given object. For example:
+    The dir() function is used to find out what names a module or object defines. It returns a list of valid attributes for the given object. For example:
 
-=======code=======
+    code
 
-import math
+        import math
 
-print(dir(math))  # Prints a list of attributes in the math module
+        print(dir(math))
+        # Prints a list of attributes in the math module
 
-----------------------------------------------
 # How to prevent code in your script from being executed when imported:
-----------------------------------------------
-In Python, you can use the if __name__ == "__main__": construct to prevent certain code from running when the script is imported as a module. This allows you to have code that is only executed when the script is run directly, not when it's imported.
+    In Python, you can use the if __name__ == "__main__": construct to prevent certain code from running when the script is imported as a module. This allows you to have code that is only executed when the script is run directly, not when it's imported.
 
     code
 
@@ -52,24 +49,22 @@ In Python, you can use the if __name__ == "__main__": construct to prevent certa
         result = my_function()
         print(result)
 
-----------------------------------------------
 # How to use command line arguments with your Python programs:
-----------------------------------------------
-You can use the sys module to access command line arguments. Here's a basic example:
+    You can use the sys module to access command line arguments. Here's a basic example:
 
-    code
+        pyCode
 
-        import sys
+            import sys
 
 
-    * The first command line argument is the script name itself, so we skip it
-        arguments = sys.argv[1:]
+            # The first command line argument is the script name itself, so we skip it
+            arguments = sys.argv[1:]
 
-        for arg in arguments:
+            for arg in arguments:
             print("Argument:", arg)
 
-You can run this script from the command line and pass arguments like this: python my_script.py arg1 arg2.
---------------------------------------------------------------------------------------------
+# You can run this script from the command line and pass arguments like this:
+        python my_script.py arg1 arg2.
 
-[back to top](#import-modules)
+[^](#import-modules)
 
