@@ -5,7 +5,7 @@
 # Need to Know
 * [What are sets and how to use them](#what-are-sets-and-how-to-use-them)?
 * [What are the most common methods of set and how to use them?](#common-methods-of-sets-and-their-usage)
-* [When to use sets versus lists?](#when-to-use-sets-versus-lists)
+* [When to use sets versus lists?](#sets-versus-lists)
 * [How to iterate into a set?](#iterating-over-a-set-or-dictionary)
 * [What are dictionaries and how to use them?](#what-are-the-dictionaries-and-how-to-use-them)
 * [When to use dictionaries versus lists or sets?](#sets-vs-lists)
