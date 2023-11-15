@@ -17,7 +17,7 @@
 * [How to use range?](#how-to-use-range)
 * [What is a function and how do you use functions?](#what-is-a-function-and-how-do-you-use-functions)
 * [What does return a function that does not use any return statement?](#what-does-a-function-return-without-a-return-statement)
-* [Scope of variables?](scope-of-variables)
+* [Scope of variables?](#scope-of-variables)
 * [What’s a traceback?](#whats-a-traceback)
 * [What are the arithmetic operators and how to use them?](#arithmetic-operators-and-how-to-use-them)
 
