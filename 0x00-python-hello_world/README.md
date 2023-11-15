@@ -12,7 +12,7 @@ Python programming is considered awesome for several reasons:
 * [How to use the Python interpreter?](#To-use-the-python-interpreter)
 	* How to print text and variables using print?
 	* How to use [strings](#how-to-use-strings)?
-* What are indexing and slicing in Python?
+* [What are indexing and slicing in Python](#what-are-indexing-and-slicing-in-python)?
 * What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
 -------
 # Why Python programming is awesome
