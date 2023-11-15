@@ -1,4 +1,4 @@
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/README.md)prev & next[>](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/README.md) 0x00 [>](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/README.md)
 # Hello World 
 
 Starting With Python Here.
