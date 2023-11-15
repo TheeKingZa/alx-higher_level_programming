@@ -4,7 +4,7 @@
 // Define a class named 'Rectangle'.
 class Rectangle {
   // Constructor method to initialize 'width' and 'height'.
- constructor (w, h) {
+  constructor (w, h) {
     this.width = w;
     this.height = h;
   }
