@@ -1,6 +1,5 @@
-Python - Test-driven development.
----------------------------------
-0x07.
+Test-driven development.
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x06-python-classes/README.md) 0x07 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x08-python-more_classes/README.md)
 -----
 
 NEED TO KNOW?
