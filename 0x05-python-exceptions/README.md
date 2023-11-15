@@ -1,5 +1,6 @@
 # Exceptions
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x04-python-more_data_structures/README.md) 0x05 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x06-python-classes/README.md)
+---
 
 # Need To Know!
 * [What’s the difference between errors and exceptions?](#whats-the-difference-between-errors-and-exceptions)
