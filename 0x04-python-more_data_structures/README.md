@@ -22,6 +22,7 @@
                               # Create a set
                               my_set = {1, 2, 3, 4, 5}
 
+[^](#more-data-structures)
 
 # Common methods of sets and their usage:
 
@@ -40,9 +41,13 @@
           * isdisjoint(other_set):
                     Returns True if the sets have no elements in common, otherwise False.
 
+[^](#more-data-structures)
+
 # Sets vs Lists 
           Use sets when you want to store a collection of unique items and perform operations like intersection, union, or difference.
           Use lists when you need an ordered collection of items and duplicates are allowed.
+
+[^](#more-data-structures)
 
 # Iterating over a Set or Dictionary:
           You can use a for loop to iterate over both sets and dictionaries:
@@ -56,7 +61,7 @@
                               for key, value in my_dict.items():
                                         print(key, value)
 
-
+[^](#more-data-structures)
 
 # Dictionaries:
           A dictionary is a collection of 
@@ -69,6 +74,8 @@
 
                     # Creating a dictionary
                     my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+
+[^](#more-data-structures)
 
 # Common operations and methods with dictionaries:
           Accessing values:
@@ -88,6 +95,8 @@
           Getting key-value pairs:
                     items = my_dict.items()
 
+[^](#more-data-structures)
+
 # What is a Lambda Function
           A lambda function is an anonymous function (a function without a name) defined using the lambda keyword. It's often used for short, simple operations.
 
@@ -95,6 +104,8 @@
                               # Lambda function to double a number
                               double = lambda x: x * 2
                               result = double(5)  # result will be 10
+
+[^](#more-data-structures)
 
 # Map, Reduce, and Filter Functions
           These are built-in higher-order functions in Python that operate on iterables like lists, sets, or dictionaries.
@@ -125,4 +136,5 @@
                               sum_result = reduce(lambda x, y: x + y, numbers)
 
 -------------------------------------------------------------------
+
 [^](#more-data-structures)
