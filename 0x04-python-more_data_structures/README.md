@@ -3,7 +3,7 @@
 # More Data structures.
 
 # Need to Know
-* [What are sets and how to use them](#what-are-sets-and-how-to-use-them)?
+* [What are sets and how to use them?](#what-are-sets-and-how-to-use-them)
 * [What are the most common methods of set and how to use them?](#common-methods-of-sets-and-their-usage)
 * [When to use sets versus lists?](#sets-vs-lists)
 * [How to iterate into a set?](#iterating-over-a-set-or-dictionary)
