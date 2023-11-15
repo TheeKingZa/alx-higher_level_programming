@@ -15,7 +15,7 @@ Python programming is considered awesome for several reasons:
 * [What are indexing and slicing in Python](#what-are-indexing-and-slicing-in-python)?
 * What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
 -------
-# Why Python programming is awesome
+# Why Python programming is awesome?
 	* Readable and Concise Code:
 		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
 	* Wide Range of Applications:
@@ -33,7 +33,7 @@ Python programming is considered awesome for several reasons:
 
 -------
 
-# Who is [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+# Who is [Guido van Rossum]?(https://en.wikipedia.org/wiki/Guido_van_Rossum)
 	In the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
 
 	The name 'Python' does not come from the snake. Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus," which Guido van Rossum enjoyed. The name was chosen to be memorable and not directly related to programming.
@@ -53,7 +53,7 @@ Python programming is considered awesome for several reasons:
 		variable = 42
 		print("The answer is:", variable)
 
-# How to use strings
+# How to use strings?
 	Strings in Python are created using single or double quotes:
 		--code--
 			string1 = 'Single quotes'
@@ -80,5 +80,5 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 		pycodestyle your_file.py
 ------------
 This tool will point out any style violations according to the PEP 8 guidelines.
-====================================================================================
+=====[back to top](#need-to-know)=========
 
