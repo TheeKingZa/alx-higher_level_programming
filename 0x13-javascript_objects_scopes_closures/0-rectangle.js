@@ -6,4 +6,4 @@ class Rectangle {
 }
 
 // Export the 'Rectangle' class as part of the module.
-module.exports = Rectangle; 
+module.exports = Rectangle;
