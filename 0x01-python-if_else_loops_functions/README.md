@@ -19,7 +19,7 @@
 * [What does return a function that does not use any return statement?](#what-does-a-function-return-without-a-return-statement)
 * [Scope of variables?](scope-of-variables)
 * [What’s a traceback?](#whats-a-traceback)
-* [What are the arithmetic operators and how to use them?](#what-are-arithmetic-operators-and-how-to-use-them)
+* [What are the arithmetic operators and how to use them?](#arithmetic-operators-and-how-to-use-them)
 
 # Why Indentation is So Important in Python
     \n Indentation is a fundamental aspect of Python's syntax. It's used to define code blocks, like loops and functions. Unlike many other programming languages that use braces, Python uses consistent indentation to represent code structure. Proper indentation ensures readability and helps avoid errors.
