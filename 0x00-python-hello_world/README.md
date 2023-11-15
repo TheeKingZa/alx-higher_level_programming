@@ -2,7 +2,17 @@
 
 Starting With Python Here.
 Python programming is considered awesome for several reasons:
-#
+
+# NEED TO KNOW?
+* Who created Python?
+* Who is Guido van Rossum?
+* Where does the name ‘Python’ come from?
+* What is the Zen of Python?
+* How to use the Python interpreter?
+* How to print text and variables using print?
+* How to use strings?
+* What are indexing and slicing in Python?
+* What is the official Python coding style and how to check your code with pycodestyle?
 
 	* Readable and Concise Code:
 		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
@@ -21,27 +31,28 @@ Python programming is considered awesome for several reasons:
 
 -------
 
-Python was created by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) in the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
+# Who is [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+	*In the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
 
 The name 'Python' does not come from the snake. Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus," which Guido van Rossum enjoyed. The name was chosen to be memorable and not directly related to programming.
 
 The Zen of Python is a collection of guiding principles for writing computer programs in the Python language. It's accessed by entering import this in a Python interpreter. It includes aphorisms like "Readability counts," "Sparse is better than dense," and "Special cases aren't special enough to break the rules."
 
 To use the Python interpreter:
-
+i
 Open a terminal or command prompt.
-1.Type python and press Enter to start the interpreter.
-2.You can enter Python code directly and see the output interactively.
-3.To print text and variables using the print function:
+	1.Type python and press Enter to start the interpreter.
+	2.You can enter Python code directly and see the output interactively.
+	3.To print text and variables using the print function:
 ---------
-py--code
+pyCode
 ---------
 text = "Hello, Python!"
 print(text)
 variable = 42
 print("The answer is:", variable)
 -----
-Strings in Python are created using single or double quotes:
+# Strings in Python are created using single or double quotes:
 
 --code--
 string1 = 'Single quotes'
