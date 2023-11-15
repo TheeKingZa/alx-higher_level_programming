@@ -10,8 +10,8 @@ Python programming is considered awesome for several reasons:
 	* Where does the name ‘Python’ come from?
 	* What is the Zen of Python?
 * [How to use the Python interpreter?](#To-use-the-python-interpreter)
-* How to print text and variables using print?
-* How to use strings?
+	* How to print text and variables using print?
+	* How to use [strings](#how-to-use-strings)?
 * What are indexing and slicing in Python?
 * What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
 -------
@@ -53,10 +53,11 @@ Python programming is considered awesome for several reasons:
 		variable = 42
 		print("The answer is:", variable)
 
-# Strings in Python are created using single or double quotes:
-	--code--
-		string1 = 'Single quotes'
-		string2 = "Double quotes"
+# How to use strings
+	Strings in Python are created using single or double quotes:
+		--code--
+			string1 = 'Single quotes'
+			string2 = "Double quotes"
 ---------------------------
 
 Indexing and slicing are used to access specific elements or portions of sequences (like strings, lists, etc.). Indexing starts from 0, and negative indices count from the end:
