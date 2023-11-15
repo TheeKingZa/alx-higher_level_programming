@@ -1,28 +1,24 @@
-# alx-higher_level_programming
+# Hello World [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
+
 Starting With Python Here.
--------
 Python programming is considered awesome for several reasons:
--------
+#
 
-1.Readable and Concise Code: Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
--------
+	* Readable and Concise Code:
+		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
+	* Wide Range of Applications:
+		* Python can be used for web development, data analysis, machine learning, scientific computing, automation, game development, and more. Its versatility allows developers to work on various domains.
+	* Large and Active Community:
+		* Python has a vibrant and supportive community, offering a wealth of libraries, frameworks, and resources. This community contributes to the language's growth and helps developers find solutions to problems.
+	* Cross-Platform Compatibility:
+		* Python is available on multiple platforms, such as Windows, macOS, and various Linux distributions, allowing developers to write code that works on different operating systems.
+	* Interactive and REPL:
+		* Python's Read-Eval-Print Loop (REPL) allows for interactive programming and quick testing of code snippets.
+	* Extensive Standard Library:
+		* Python comes with a rich standard library that offers modules for various tasks, saving developers time by providing ready-to-use functionalities.
+	* Object-Oriented and Functional Programming:
+		* Python supports both object-oriented and functional programming paradigms, allowing developers to choose the approach that best suits their needs.
 
-2.Wide Range of Applications: Python can be used for web development, data analysis, machine learning, scientific computing, automation, game development, and more. Its versatility allows developers to work on various domains.
--------
-
-3.Large and Active Community: Python has a vibrant and supportive community, offering a wealth of libraries, frameworks, and resources. This community contributes to the language's growth and helps developers find solutions to problems.
--------
-
-4.Cross-Platform Compatibility: Python is available on multiple platforms, such as Windows, macOS, and various Linux distributions, allowing developers to write code that works on different operating systems.
--------
-
-5.Interactive and REPL: Python's Read-Eval-Print Loop (REPL) allows for interactive programming and quick testing of code snippets.
--------
-
-6.Extensive Standard Library: Python comes with a rich standard library that offers modules for various tasks, saving developers time by providing ready-to-use functionalities.
--------
-
-7.Object-Oriented and Functional Programming: Python supports both object-oriented and functional programming paradigms, allowing developers to choose the approach that best suits their needs.
 -------
 
 Python was created by Guido van Rossum in the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
