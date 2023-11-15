@@ -26,7 +26,7 @@
 		print(my_list[0])  
 
 	Output: 1
-
+[^](#data-structures-lists-tuples)
 # Differences and Similarities between Strings and Lists
 	Both strings and lists are sequences,
  	but strings hold a sequence of characters,
@@ -37,8 +37,7 @@
 	
  	Similarity:
   		Both strings and lists can be indexed and sliced to access specific elements or sublists.
-
-
+[^](#data-structures-lists-tuples)
 # Common Methods of Lists:
 	Some common list methods include append(), insert(), pop(), remove(), extend(), and sort().
 		Here's an example of using some of these methods:
@@ -57,12 +56,12 @@
 		# Output: [1, 3, 5, 6, 7]
 
 
-
+[^](#data-structures-lists-tuples)
 # Using Lists as Stacks and Queues
 	You can use a list as a stack (Last-In-First-Out) by using append() to add elements and pop() to remove the last element.
 	You can use a list as a queue (First-In-First-Out) by using append() to enqueue and pop(0) to dequeue.
 
-
+[^](#data-structures-lists-tuples)
 # List Comprehensions
 	List comprehensions provide a concise way to create lists. They consist of an expression followed by at least one for clause.
 		Here's an example of list comprehension:
@@ -73,7 +72,7 @@
 
 		# Output: [1, 4, 9, 16, 25]
 
-
+[^](#data-structures-lists-tuples)
 # Tuples
 	Tuples are similar to lists but are immutable. They are used to group related data together.
 		Here's an example of creating and using a tuple:
@@ -81,26 +80,27 @@
 		pyCode
 			my_tuple = (1, 'two', 3.0)
 			print(my_tuple[1])  # Output: 'two'
-
+[^](#data-structures-lists-tuples)
 # When to Use Tuples vs. Lists
 	Use lists when you need a collection that can be modified. Use tuples when you want to create a collection of items that should not change.
 
-
+[^](#data-structures-lists-tuples)
 # Sequence
 	A sequence is an ordered collection of items. Strings, lists, and tuples are examples of sequences in Python.
 
-
+[^](#data-structures-lists-tuples)
 # Tuple Packing
 	Tuple packing is the process of creating a tuple by placing comma-separated values inside parentheses.
 		pyCode
 			coordinates = 10, 20
 			print(coordinates)  # Output: (10, 20)
-
+[^](#data-structures-lists-tuples)
 # Sequence Unpacking:
 	Sequence unpacking is the process of assigning the values of a sequence to multiple variables.
 		pyCode
   			x, y = coordinates
 			print(x)  # Output: 10
+[^](#data-structures-lists-tuples)
 # The del Statement:
 	The del statement is used to delete a reference to an object. It can be used to remove items from lists and other data structures.
 		pyCode
@@ -110,5 +110,4 @@
 
 		# Output: [1, 3]
 ----
-[^](#data-structures-lists-tuples
-)
+[^](#data-structures-lists-tuples)
