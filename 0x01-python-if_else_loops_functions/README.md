@@ -15,11 +15,11 @@
 * [How to use else clauses on loops](#how-to-use-else-clauses-on-loops)
 * [What does the pass statement do, and when to use it](#what-does-the-pass-statement-do-and-when-to-use-it)
 * [How to use range?](#how-to-use-range)
-* [What is a function and how do you use functions?]
-* [What does return a function that does not use any return statement?]
-* [Scope of variables?]
-* [What’s a traceback?]
-* [What are the arithmetic operators and how to use them?]
+* [What is a function and how do you use functions?](#what-is-a-function-and-how-do-you-use-functions)
+* [What does return a function that does not use any return statement?](#what-does-a-function-return-without-a-return-statement)
+* [Scope of variables?](scope-of-variables)
+* [What’s a traceback?](#whats-a-traceback)
+* [What are the arithmetic operators and how to use them?](#what-are-arithmetic-operators-and-how-to-use-them)
 
 # Why Indentation is So Important in Python
     \n Indentation is a fundamental aspect of Python's syntax. It's used to define code blocks, like loops and functions. Unlike many other programming languages that use braces, Python uses consistent indentation to represent code structure. Proper indentation ensures readability and helps avoid errors.
@@ -33,6 +33,8 @@
          # This is another indented block
          do_something_else()
 
+[^](#if-else-loops-and-functions)
+
 # How to Use Statements
       Conditional statements allow you to execute code based on certain conditions.
          pyCode
@@ -41,6 +43,7 @@
             else:
             # Code to execute if condition is False
 
+[^](#if-else-loops-and-functions)
 
 # How to Use Comments
       Comments are essential for explaining your code and making it more understandable.
@@ -52,12 +55,16 @@
          This is a multi-line comment.
          You can write multiple lines here.
          """
-         
+
+[^](#if-else-loops-and-functions)
+
 # How to Assign Values to Variables
       Variables store data that can be used throughout your program.
       pyCode
       
       variable_name = value
+
+[^](#if-else-loops-and-functions)
 
 # How to Use while and for Loops
       Loops allow you to repeat code blocks multiple times.
@@ -71,10 +78,14 @@
             for item in iterable:
             # Code to execute for each item in the iterable
 
+[^](#if-else-loops-and-functions)
+
 # How Python’s for Differs from C’s
       Python's for loop is more like a "for each" loop.
       It iterates over elements in an iterable, like a list, without the need for explicit control variables
       and loop conditions as in C.
+
+[^](#if-else-loops-and-functions)
 
 # How to Use break and continue Statements.
       * break: Exits the loop immediately.
@@ -89,9 +100,12 @@
             if something_else:
             continue  # Skip to the next iteration
 
+[^](#if-else-loops-and-functions)
 
 # How to Use else Clauses on Loops.
       Python loops can have an else block that executes when the loop completes without encountering a 'break' statement.
+
+[^](#if-else-loops-and-functions)
 
 # What Does the pass Statement Do, and When to Use It
       The pass statement is a placeholder for code that you plan to implement later.
@@ -102,33 +116,41 @@
             else:
             # Actual code here
 
+[^](#if-else-loops-and-functions)
+
 # How to Use range
-range() generates a sequence of numbers that can be used in loops.
----------
-pyCode
-----
-for i in range(5):  # Generates 0 to 4
-    print(i)
----------
+      range() generates a sequence of numbers that can be used in loops.
+         pyCode
+            
+            for i in range(5):  # Generates 0 to 4
+            print(i)
 
-What is a Function and How Do You Use Functions
-A function is a block of reusable code that performs a specific task.
------
-pyCode
-----
-def function_name(parameters):
-    # Code to execute
-    return something  # Optional return value
+[^](#if-else-loops-and-functions)
 
-----------------
-What Does a Function Return Without a Return Statement
-A function without a return statement implicitly returns None.
+# What is a Function and How Do You Use Functions
+      A function is a block of reusable code that performs a specific task.
+         pyCode
+         
+         def function_name(parameters):
+         # Code to execute
+         return something  # Optional return value
 
-Scope of Variables
-The scope of a variable defines where it can be accessed. Variables can have local or global scope.
+[^](#if-else-loops-and-functions)
 
-What's a Traceback
-A traceback is an error message that Python displays when an exception occurs. It helps you identify the source of the error in your code.
+# What Does a Function Return Without a Return Statement
+      A function without a return statement implicitly returns None.
+
+[^](#if-else-loops-and-functions)
+
+# Scope of Variables
+      The scope of a variable defines where it can be accessed. Variables can have local or global scope.
+
+[^](#if-else-loops-and-functions)
+
+# What's a Traceback
+      A traceback is an error message that Python displays when an exception occurs. It helps you identify the source of the error in your code.
+
+[^](#if-else-loops-and-functions)
 
 # Arithmetic Operators and How to Use Them
       Python supports common arithmetic operators: +, -, *, /, // (floor division), % (modulus), ** (exponentiation).
