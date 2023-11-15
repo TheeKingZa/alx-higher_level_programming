@@ -3,7 +3,7 @@
 ----
 
 # NEED TO KNOW
-* [What’s an interactive test?]
+* [What’s an interactive test?](#whats-an-interactive-test)
 * [Why tests are important?]
 * [How to write Docstrings to create tests?]
 * [How to write documentation for each module and function?]
