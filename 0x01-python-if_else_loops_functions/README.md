@@ -1,4 +1,4 @@
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x00-python-hello_world/README.md) [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/0x00-python-hello_world/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x00-python-hello_world/README.md) [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x02-python-import_modules/README.md)
 # IF, Else, Loops and Functions
 
 * Python Programming Basics
