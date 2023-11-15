@@ -138,4 +138,5 @@ Python supports common arithmetic operators: +, -, *, /, // (floor division), % 
 pyCode
 ------
 result = 10 + 5
-================================================================
+===============================================================
+[back to top](#if-else-loops-and-functions)
