@@ -12,7 +12,7 @@ Python programming is considered awesome for several reasons:
 * How to print text and variables using print?
 * How to use strings?
 * What are indexing and slicing in Python?
-* What is the official Python coding style and how to check your code with pycodestyle?
+* What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
 -------
 	* Readable and Concise Code:
 		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
@@ -44,15 +44,14 @@ Python programming is considered awesome for several reasons:
 		1.Type python and press Enter to start the interpreter.
 		2.You can enter Python code directly and see the output interactively.
 		3.To print text and variables using the print function:
----------
+
 	* pyCode
 		text = "Hello, Python!"
 		print(text)
 		variable = 42
 		print("The answer is:", variable)
------
-# Strings in Python are created using single or double quotes:
 
+# Strings in Python are created using single or double quotes:
 	--code--
 		string1 = 'Single quotes'
 		string2 = "Double quotes"
@@ -60,13 +59,13 @@ Python programming is considered awesome for several reasons:
 
 Indexing and slicing are used to access specific elements or portions of sequences (like strings, lists, etc.). Indexing starts from 0, and negative indices count from the end:
 
-------
-text = "Python"
-first_char = text[0]  # 'P'
-last_char = text[-1]   # 'n'
-substring = text[1:4]  # 'yth'
-----------------------------
+	text = "Python"
+	first_char = text[0]  # 'P'
+	last_char = text[-1]   # 'n'
+	substring = text[1:4]  # 'yth'
 
+----------------------------
+# [PEP8](#pep8)
 The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
 
 1.Install pycodestyle using pip:
