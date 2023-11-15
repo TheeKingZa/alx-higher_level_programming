@@ -2,7 +2,7 @@
 // The above line is a shebang indicating that the script should be run using the specified interpreter, in this case, 'node'.
 
 // Define a function named 'factorial' that takes one parameter 'n'.
-function factorial(n) {
+function factorial (n) {
   // Check if 'n' is negative.
   if (n < 0) {
     // If 'n' is negative, return -1.

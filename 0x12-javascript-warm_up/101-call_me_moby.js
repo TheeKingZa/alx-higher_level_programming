@@ -1,7 +1,7 @@
 const myModule = require('./path-to-your-script'); // Replace with the actual path to your script
 
 // Define a function to be called by callMeMoby
-function printHello() {
+function printHello () {
   console.log('Hello!');
 }
 
