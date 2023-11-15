@@ -41,7 +41,8 @@
                     Returns True if the sets have no elements in common, otherwise False.
 
 # Sets vs Lists 
-          Use sets when you want to store a collection of unique items and perform operations like intersection, union, or difference. Use lists when you need an ordered collection of items and duplicates are allowed.
+          Use sets when you want to store a collection of unique items and perform operations like intersection, union, or difference.
+          Use lists when you need an ordered collection of items and duplicates are allowed.
 
 # Iterating over a Set or Dictionary:
           You can use a for loop to iterate over both sets and dictionaries:
