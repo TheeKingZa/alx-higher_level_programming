@@ -1,6 +1,7 @@
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x03-python-data_structures/README.md) 0x04 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x05-python-exceptions/README.md)
-
 # More Data structures.
+
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x03-python-data_structures/README.md) 0x04 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x05-python-exceptions/README.md)
+---
 
 # Need to Know
 * [What are sets and how to use them?](#what-are-sets-and-how-to-use-them)
