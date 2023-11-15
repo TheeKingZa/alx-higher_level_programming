@@ -83,7 +83,6 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 
 This tool will point out any style violations according to the PEP 8 guidelines.
 
-=====
+
 [back to top](#hello-world)
-=========
 
