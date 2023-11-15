@@ -1,4 +1,4 @@
-# Higher Level Programming
+Higher Level Programming
 # [ALX](https://www.alxafrica.com)
 # Author: [Pule Mathikhha](https://pulemathikha.wordpress.com)
 -------
