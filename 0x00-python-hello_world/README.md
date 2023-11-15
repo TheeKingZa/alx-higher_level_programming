@@ -33,7 +33,7 @@ Python programming is considered awesome for several reasons:
 
 -------
 
-# Who is [Guido van Rossum]?(https://en.wikipedia.org/wiki/Guido_van_Rossum)
+# Who is [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)?
 	In the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
 
 	The name 'Python' does not come from the snake. Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus," which Guido van Rossum enjoyed. The name was chosen to be memorable and not directly related to programming.
