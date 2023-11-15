@@ -60,6 +60,8 @@ Python programming is considered awesome for several reasons:
 			string2 = "Double quotes"
 ---------------------------
 
+# What are indexing and slicing in Python?
+
 Indexing and slicing are used to access specific elements or portions of sequences (like strings, lists, etc.). Indexing starts from 0, and negative indices count from the end:
 
 	text = "Python"
@@ -69,18 +71,14 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 
 ----------------------------
 # [PEP8](#pep8)
-The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
+	The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
 
-1.Install pycodestyle using pip:
----
-pip install pycodestyle
----
+	1.Install pycodestyle using pip:
+		pip install pycodestyle
 
-2.Run pycodestyle on your Python file:
----
-pycodestyle your_file.py
----
-
+	2.Run pycodestyle on your Python file:
+		pycodestyle your_file.py
+------------
 This tool will point out any style violations according to the PEP 8 guidelines.
 ====================================================================================
 
