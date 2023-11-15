@@ -12,4 +12,3 @@ exports.logMe = function (item) {
   // Increment the counter for the next call.
   narg++;
 };
-

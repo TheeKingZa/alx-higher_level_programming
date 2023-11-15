@@ -1,48 +1,36 @@
-Python-More_Classes
--------------------
-0x08
------
+More_Classes
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x07-python-test_driven_development/README.md) 0x08 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x09-python-everything_is_object/README.md)
+---
 
 NEED TO KNOW?
 -------------
-Why Python programming is awesome
-What is OOP
-“first-class everything”
-What is a class
-What is an object and an instance
-What is the difference between a class and an object or instance
-What is an attribute
-What are and how to use public, protected and private attributes
-What is self
-What is a method
-What is the special __init__ method and how to use it
-What is Data Abstraction, Data Encapsulation, and Information Hiding
-What is a property
-What is the difference between an attribute and a property in Python
-What is the Pythonic way to write getters and setters in Python
-What are the special __str__ and __repr__ methods and how to use them
-What is the difference between __str__ and __repr__
-What is a class attribute
-What is the difference between a object attribute and a class attribute
-What is a class method
-What is a static method
-How to dynamically create arbitrary new attributes for existing instances of a class
-How to bind attributes to object and classes
-What is and what does contain __dict__ of a class and of an instance of a class
-How does Python find the attributes of an object or class
-How to use the getattr function?
-----------------------------------------------------------------------------------
+* [What is OOP?]()
+* [“first-class everything”?]()
+* [What is a class?]()
+* [What is an object and an instance?]()
+* [What is the difference between a class and an object or instance?]()
+* [What is an attribute?]()
+* [What are and how to use public, protected and private attributes?]()
+* [What is self?]()
+* [What is a method?]()
+* [What is the special __init__ method and how to use it?]()
+* [What is Data Abstraction, Data Encapsulation, and Information Hiding?]()
+* [What is a property?]()
+* [What is the difference between an attribute and a property in Python?]()
+* [What is the Pythonic way to write getters and setters in Python?]()
+* [What are the special __str__ and __repr__ methods and how to use them?]()
+* [What is the difference between __str__ and __repr__?]()
+* [What is a class attribute?]()
+* [What is the difference between a object attribute and a class attribute?]()
+* [What is a class method?]()
+* [What is a static method?]()
+* [How to dynamically create arbitrary new attributes for existing instances of a class?]()
+* [How to bind attributes to object and classes?]()
+* [What is and what does contain __dict__ of a class and of an instance of a class?]()
+* [How does Python find the attributes of an object or class?]()
+* [How to use the getattr function?]()
 
-Readability: Python's syntax is clean and easy to read, making it an excellent choice for beginners and experienced programmers alike.
 
-Versatility: Python is a versatile language that can be used for web development, data analysis, artificial intelligence, automation, and more.
-
-Large Community: Python has a vast and active community, which means there are numerous libraries, frameworks, and resources available to help you solve problems.
-
-Cross-Platform: Python is available on multiple platforms, making it accessible for developers on Windows, macOS, and Linux.
-
-OOP (Object-Oriented Programming): Python supports object-oriented programming, a powerful paradigm that helps in organizing code and modeling real-world entities.
-----------------
 
 What is OOP? Object-Oriented Programming (OOP) is a programming paradigm that organizes data and functions into objects. It focuses on the concept of objects, which are instances of classes, and enables code reusability and modularity.
 

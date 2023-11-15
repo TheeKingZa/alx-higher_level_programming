@@ -7,7 +7,7 @@ const SquareP = require('./5-square');
 // Define a class named 'Square' that extends 'SquareP'.
 class Square extends SquareP {
   // Method to print a square of characters to the console.
-  charPrint(c) {
+  charPrint (c) {
     // If 'c' is undefined, set it to 'X'.
     if (c === undefined) {
       c = 'X';

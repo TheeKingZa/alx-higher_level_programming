@@ -32,4 +32,3 @@ for (const j in valsUniq) {
 
 // Print the new dictionary
 console.log(newDict);
-

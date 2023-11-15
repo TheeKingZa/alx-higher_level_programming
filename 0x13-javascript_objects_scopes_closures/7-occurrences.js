@@ -18,4 +18,3 @@ exports.nbOccurences = function (list, searchElement) {
   // Return the total number of occurrences.
   return nOccurrences;
 };
-
