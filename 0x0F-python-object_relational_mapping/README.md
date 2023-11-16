@@ -2,7 +2,7 @@
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md) 0x0F [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
 ---
 
-#Need TO KNOW?
+# NEED TO KNOW?
 * [How to connect to a MySQL database from a Python script?](#how-to-connect-to-a-mysql-database-from-a-python-script)
 * [How to SELECT rows in a MySQL table from a Python script?](#how-to-SELECT-rows-in-a-mysql-table-from-a-python-script)
 * [How to INSERT rows in a MySQL table from a Python script?](#how-to-insert-rows-in-a-mysql-table-from-a-python-script)
