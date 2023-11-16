@@ -1,6 +1,6 @@
 Higher Level Programming
 # [ALX](https://www.alxafrica.com)
-# Author: [Pule Mathikhha](https://pulemathikha.wordpress.com)
+# Author: [Pule Mathikha](https://pulemathikha.wordpress.com)
 -------
 * Python 
 	* [Hello World](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x00-python-hello_world/README.md)
