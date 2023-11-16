@@ -1,5 +1,6 @@
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/README.md)prev & next[>](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/README.md)
 # Hello World 
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/README.md) 0x00 [>](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/README.md)
+---
 
 Starting With Python Here.
 Python programming is considered awesome for several reasons:
@@ -15,7 +16,7 @@ Python programming is considered awesome for several reasons:
 	* How to use [strings](#how-to-use-strings)?
 * [What are indexing and slicing in Python](#what-are-indexing-and-slicing-in-python)?
 * What is the official Python coding style and how to check your code with [pycodestyle](#pep8)?
--------
+
 # Why Python programming is awesome?
 	* Readable and Concise Code:
 		* Python emphasizes clean and readable code, making it easier to understand and maintain. Its syntax is designed to be intuitive and expressive, reducing the complexity of code.
@@ -32,14 +33,27 @@ Python programming is considered awesome for several reasons:
 	* Object-Oriented and Functional Programming:
 		* Python supports both object-oriented and functional programming paradigms, allowing developers to choose the approach that best suits their needs.
 
--------
+[^](#hello-world)
 
 # Who is [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)?
-	In the late 1980s and was first released in 1991. Guido van Rossum is a Dutch programmer who is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python. He was instrumental in shaping the language and overseeing its development until he stepped down from the role in July 2018.
+	In the late 1980s and was first released in 1991.
+ 	Guido van Rossum is a Dutch programmer who is often referred to as
+  	the "Benevolent Dictator For Life" (BDFL) of Python.
+   	He was instrumental in shaping the language and overseeing its development
+    	until he stepped down from the role in July 2018.
 
-	The name 'Python' does not come from the snake. Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus," which Guido van Rossum enjoyed. The name was chosen to be memorable and not directly related to programming.
+	The name 'Python' does not come from the snake.
+ 	Instead, it is inspired by the British comedy sketch show "Monty Python's Flying Circus,"
+  	which Guido van Rossum enjoyed.
+   	The name was chosen to be memorable and not directly related to programming.
 
-	The Zen of Python is a collection of guiding principles for writing computer programs in the Python language. It's accessed by entering import this in a Python interpreter. It includes aphorisms like "Readability counts," "Sparse is better than dense," and "Special cases aren't special enough to break the rules."
+	The Zen of Python is a collection of guiding principles for writing
+ 	computer programs in the Python language. It's accessed by entering import this in a Python interpreter.
+ 	It includes aphorisms like 
+  	"Readability counts," "Sparse is better than dense," and "Special cases
+   	aren't special enough to break the rules."
+    
+[^](#hello-world)
 
 # To use the Python interpreter:
 
@@ -54,12 +68,15 @@ Python programming is considered awesome for several reasons:
 		variable = 42
 		print("The answer is:", variable)
 
+[^](#hello-world)
+
 # How to use strings?
 	Strings in Python are created using single or double quotes:
 		--code--
 			string1 = 'Single quotes'
 			string2 = "Double quotes"
----------------------------
+
+[^](#hello-world)
 
 # What are indexing and slicing in Python?
 
@@ -70,7 +87,8 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 	last_char = text[-1]   # 'n'
 	substring = text[1:4]  # 'yth'
 
-----------------------------
+[^](#hello-world)
+
 # [PEP8](#pep8)
 	The official Python coding style is defined in PEP 8 (Python Enhancement Proposal 8). To check your code against PEP 8 conventions, you can use the pycodestyle tool (formerly known as pep8):
 
@@ -79,10 +97,9 @@ Indexing and slicing are used to access specific elements or portions of sequenc
 
 	2.Run pycodestyle on your Python file:
 		pycodestyle your_file.py
-------------
+---------
 
 This tool will point out any style violations according to the PEP 8 guidelines.
 
 
-[back to top](#hello-world)
-
+[^](#hello-world)
