@@ -3,7 +3,7 @@
 ---
 
 # NEED TO KNOW?
-* [Installing([MySQLdb v2.0.x](#install-mysqldb-module-version-2-0-x), [SQLAlchemy)](#install-sqlalchemy-module-version-1-4-x)](#installing)
+* [Installing([MySQLdb v2.0.x](#install-mysqldb-module-version-20x), [SQLAlchemy)](#install-sqlalchemy-module-version-14x)](#installing)
 * [How to connect to a MySQL database from a Python script?](#how-to-connect-to-a-mysql-database-from-a-python-script)
 * [How to SELECT rows in a MySQL table from a Python script?](#how-to-SELECT-rows-in-a-mysql-table-from-a-python-script)
 * [How to INSERT rows in a MySQL table from a Python script?](#how-to-insert-rows-in-a-mysql-table-from-a-python-script)
