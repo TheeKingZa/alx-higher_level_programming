@@ -11,7 +11,8 @@ if __name__ == "__main__":
     # Create a cursor object to interact with the database
     cur = db.cursor()
 
-    # Execute a SQL query to select data from 'cities' and 'states' tables using an INNER JOIN
+    # Execute a SQL query to select data
+    # from 'cities' and 'states' tables using an INNER JOIN
     cur.execute("""
         SELECT cities.id, cities.name, states.name
         FROM cities
