@@ -14,7 +14,7 @@ if __name__ == "__main__":
     # Extract the search pattern from the command-line arguments
     match = sys.argv[4]
 
-    # Execute a parameterized SQL query to 
+    # Execute a parameterized SQL query to
     # select states with names containing the specified pattern
     cur.execute("SELECT * FROM states WHERE name LIKE %s", (match, ))
 
