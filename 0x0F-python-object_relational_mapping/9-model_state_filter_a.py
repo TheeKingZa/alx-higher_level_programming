@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Prints State objects from the database hbtn_0e_6_usa that contain the letter 'a'.
+Prints State objects from the database
+hbtn_0e_6_usa that contain the letter 'a'.
 """
 
 import sys
@@ -22,7 +23,8 @@ if __name__ == "__main__":
     # Create a Session instance
     session = Session()
 
-    # Query State objects from the table that contain the letter 'a' in their name
+    # Query State objects from the table
+    # that contain the letter 'a' in their name
     for instance in session.query(State).filter(State.name.like('%a%')):
         # Print the id and name attributes of each matching State object
         print(instance.id, instance.name, sep=": ")
