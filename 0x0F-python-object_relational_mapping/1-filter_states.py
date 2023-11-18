@@ -24,7 +24,7 @@ if __name__ == "__main__":
     # Create a cursor object to interact with the database
     cur = db.cursor()
 
-    # Execute a SQL query to select distinct states with names starting with 'N'
+    # Execute SQL query select distinct states, names starting with 'N'
     cur.execute("""
         SELECT DISTINCT * FROM states
         WHERE name LIKE BINARY 'N%'
