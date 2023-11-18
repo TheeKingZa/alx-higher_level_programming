@@ -3,10 +3,10 @@
 Module that defines the City class, which is a SQLAlchemy model
 representing the 'cities' table in the database.
 """
-
 from model_state import Base
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
+
 
 class City(Base):
     """
@@ -16,7 +16,9 @@ class City(Base):
         __tablename__ (str): The name of the database table.
         id (int): Unique identifier for each city.
         name (str): The name of the city.
-        state_id (int): Foreign key referencing the 'id' column in the 'states' table.
+        state_id (int):
+            Foreign key referencing the 'id'
+            column in the 'states' table.
     """
 
     __tablename__ = 'cities'
