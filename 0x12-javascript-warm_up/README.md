@@ -1,6 +1,6 @@
- JavaScript - Warm up
- ---------------------
- 0x12
+# JavaScript - Warm up
+
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0Fpython-object_relational_mapping/README.md) 0x12 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
  ----
 
  NEED TO KNOW?
