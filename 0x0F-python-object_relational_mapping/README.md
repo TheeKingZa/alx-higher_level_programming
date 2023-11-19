@@ -33,9 +33,8 @@ Read or watch:
 * [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 # Installng
---
+---
 ## Install MySQLdb module version 2.0.x
---
 For installing MySQLdb, you need to have MySQL installed: [How to install MySQL 8.0 in Ubuntu 20.04](https://phoenixnap.com/kb/install-mysql-ubuntu-20-04)
 --
     $ sudo apt-get install python3-dev
