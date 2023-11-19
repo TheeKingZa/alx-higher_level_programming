@@ -8,6 +8,7 @@ from relationship_state import Base
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 
+
 class City(Base):
     """
     City class representing the 'cities' table in the database.
@@ -16,7 +17,8 @@ class City(Base):
         __tablename__ (str): The name of the database table.
         id (int): Unique identifier for each city.
         name (str): The name of the city.
-        state_id (int): Foreign key referencing the 'id' column in the 'states' table.
+        state_id (int): Foreign key referencing the 'id'
+        column in the 'states' table.
         state (relationship): Relationship with the State class.
     """
 
