@@ -1,7 +1,6 @@
-Python - Inheritance
----------------------
-0x0A
-----
+# Inheritance
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0A-python-everything_is_object/README.md) 0x0B [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0C-python-input_output/README.md)
+---
 
 NEED TO KNOW?
 -------------
