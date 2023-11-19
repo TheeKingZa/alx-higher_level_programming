@@ -3,6 +3,7 @@
 ---
 
 # NEED TO KNOW?
+* [Resources](#resources)
 * [Installing](#installing)
     * [MySQLdb v2.0.x](#install-mysqldb-module-version-20x)
     * [SQLAlchemy)](#install-sqlalchemy-module-version-14x)
@@ -12,6 +13,23 @@
 * [What ORM means?](#what-orm-means)
 * [How to map a Python Class to a MySQL table?](#how-to-map-a-python-class-to-a-mysql-table)
 * [How to create a Python Virtual Environment?](#how-to-create-a-python-virtual-enviroment)
+
+# Resources
+Read or watch:
+
+* [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)
+* [mysqlclient/MySQLdb documentation](https://mysqlclient.readthedocs.io)(please don’t pay attention to _mysql)
+* [MySQLdb tutorial]()
+* [SQLAlchemy tutorial]()
+* [SQLAlchemy]
+* [mysqlclient/MySQLdb]
+* [Introduction to SQLAlchemy]
+* [Flask SQLAlchemy]
+10 common stumbling blocks for SQLAlchemy newbies
+Python SQLAlchemy Cheatsheet
+SQLAlchemy ORM Tutorial for Python Developers (Warning: This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL)
+SQLAlchemy Tutorial
+Python Virtual Environments: A primer
 
 # Installng
 --
