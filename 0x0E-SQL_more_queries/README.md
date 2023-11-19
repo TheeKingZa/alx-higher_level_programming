@@ -1,7 +1,5 @@
-SQL - MORE QUERIES
-------------------
-0x0E
-----
+# Object Relational Mapping
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0D-sql_introduction/README.md) 0x0E [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md)
 
 NEED TO KNOW?
 -------------
