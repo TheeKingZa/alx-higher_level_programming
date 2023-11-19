@@ -1,5 +1,6 @@
 # Javascript Objects Scopes Closures
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md) 0x13
+---
 
 # NEED TO KNOW!
 * [Why JavaScript programming is amazing?](#why-javascript-programming-is-amazing)
