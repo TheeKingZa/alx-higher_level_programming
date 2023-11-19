@@ -2,10 +2,6 @@
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0A-python-inheritance/README.md) 0x0B [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle/README.md)
 ---
 
-# Input and Output
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0A-python-inheritance/README.md) 0x0B [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle/README.md)
----
-
 # NEED TO KNOW?
 * [How to open a file?]()
 * [How to write text in a file?]()
