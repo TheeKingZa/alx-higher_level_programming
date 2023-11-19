@@ -32,8 +32,7 @@ Read or watch:
 * [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 * [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)
 
-# Installng
----
+# Installing
 ## Install MySQLdb module version 2.0.x
 For installing MySQLdb, you need to have MySQL installed: [How to install MySQL 8.0 in Ubuntu 20.04](https://phoenixnap.com/kb/install-mysql-ubuntu-20-04)
 --
