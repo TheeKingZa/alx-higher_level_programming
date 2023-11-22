@@ -1,9 +1,6 @@
-Structed Query Language.
---------------------------
-SQL
--------
-# 0x0D
-
+# SQL Introduction
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle/README.md) 0x0D [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md)
+---
 
 # NEED TO KNOW?!
 * What’s a database?

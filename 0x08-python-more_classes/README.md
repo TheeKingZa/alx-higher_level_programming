@@ -1,8 +1,8 @@
-More_Classes
+# More_Classes
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x07-python-test_driven_development/README.md) 0x08 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x09-python-everything_is_object/README.md)
 ---
 
-NEED TO KNOW?
+# NEED TO KNOW?
 -------------
 * [What is OOP?]()
 * [“first-class everything”?]()
@@ -82,4 +82,6 @@ How Python finds attributes: Python looks for attributes first in the instance's
 
 How to use the getattr function: getattr(object, attribute_name, default) is used to get the value of an attribute from an object. If the attribute doesn't exist, it returns the default value.
 -------------------------------------------
+
+[^](#need-to-know)
 

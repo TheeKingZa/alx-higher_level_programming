@@ -1,7 +1,6 @@
-Python - Everything is object
------------------------------
-0x09
------
+# Everything is object
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x08-python-more_classes/README.md) 0x09 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0A-python-inheritance/README.md)
+---
 
 NEED TO KNOW?
 --------------
