@@ -22,7 +22,7 @@ Read or watch:
   * [What HTTP headers are](#http-header)
   * [What the HTTP message body is](#http-message-body)
   * [What an HTTP request method is](#http-request-method)
-  * [What an HTTP response status code is](#http-status-code)
+  * [What an HTTP response status code is](#http-response-status-code)
   * [What an HTTP Cookie is](#http-cookie)
   * [How to make a request with cURL](#making-requests-with-curl)
   * [What happens when you type google.com in your browser](#browser-behavior) (Application level)
