@@ -24,7 +24,7 @@ Read or watch:
   * [What an HTTP Cookie is](#http-cookie)
   * [How to make a request with cURL](#making-requests-with-curl)
   * [What happens when you type google.com in your browser](#browser-behavior) (Application level)
-
+---
 # What is a URL?
 A URL (Uniform Resource Locator) is a reference or address used to access resources on the internet. It consists of various components that specify how to locate and retrieve a resource.
 
@@ -112,6 +112,6 @@ cURL is a command-line tool for making HTTP requests. You can use it to interact
 # Browser Behavior
     (Application Level)
 When you type "google.com" in your browser, it initiates an application-level process. The browser resolves the domain, establishes a connection, sends an HTTP request, receives an HTTP response, and renders the content for you to interact with. Understanding these processes enhances your overall web literacy.
-
+---
 [^](#need-to-know)
 
