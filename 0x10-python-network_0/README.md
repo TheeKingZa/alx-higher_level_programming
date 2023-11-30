@@ -79,7 +79,8 @@ An HTTP cookie is a small piece of data stored on the user's device, allowing se
 # Making Requests with cURL
 cURL is a command-line tool for making HTTP requests. You can use it to interact with web services and APIs from the terminal.
 
-# Browser Behavior (Application Level)
+# Browser Behavior
+    (Application Level)
 When you type "google.com" in your browser, it initiates an application-level process. The browser resolves the domain, establishes a connection, sends an HTTP request, receives an HTTP response, and renders the content for you to interact with. Understanding these processes enhances your overall web literacy.
 
 [^](#need-to-know)
