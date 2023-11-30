@@ -1,7 +1,6 @@
-Higher Level Programming
-# [ALX](https://www.alxafrica.com)
-# Author: [Pule Mathikha](https://pulemathikha.wordpress.com)
--------
+# Higher Level Programming
+[#](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
+---
 * Python 
 	* [Hello World](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x00-python-hello_world/README.md)
 	* [If, Else, Loops and Functions](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/README.md)
