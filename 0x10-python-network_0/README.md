@@ -18,7 +18,7 @@ Read or watch:
   * [How to define a port number in a URL](port-number)
   * [What a query string is](#query-string)
   * [What an HTTP request is](#http-request)
-  * [What an HTTP response is](#http-reponse)
+  * [What an HTTP response is](#http-response)
   * [What HTTP headers are](#http-headers)
   * [What the HTTP message body is](#http-message-body)
   * [What an HTTP request method is](#http-request-method)
