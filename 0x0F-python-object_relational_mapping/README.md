@@ -1,5 +1,5 @@
 # Object Relational Mapping
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md) 0x0F [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md) 0x0F [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x10-python-network_0/README.md)
 ---
 
 # NEED TO KNOW?

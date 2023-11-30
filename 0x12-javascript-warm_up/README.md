@@ -1,6 +1,6 @@
 # Warm Up
 
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md) 0x12 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x10-python-network_0/README.md) 0x12 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
  ----
 
  NEED TO KNOW?
