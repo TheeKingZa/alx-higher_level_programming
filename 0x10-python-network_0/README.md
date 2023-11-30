@@ -19,7 +19,7 @@ Read or watch:
   * [What a query string is](#query-string)
   * [What an HTTP request is](#http-request)
   * [What an HTTP response is](#http-reponse)
-  * [What HTTP headers are](#http-header)
+  * [What HTTP headers are](#http-headers)
   * [What the HTTP message body is](#http-message-body)
   * [What an HTTP request method is](#http-request-method)
   * [What an HTTP response status code is](#http-response-status-code)
