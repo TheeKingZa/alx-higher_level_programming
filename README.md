@@ -18,6 +18,7 @@
 * [More Queries](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md)
 * [Object_Relational_Mapping](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md)
 * [Network 0](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x10-python-network_0/README.md)
+* [Network 1](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x11-python-network_1/README.md)
 * [Warm Up](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
 * [Objects, Scopes and Closures](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
 
