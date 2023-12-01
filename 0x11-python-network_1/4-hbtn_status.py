@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-import requests
-
 """
 This script fetches the content of
 https://alx-intranet.hbtn.io/status
@@ -10,6 +7,8 @@ information about the response,
 including its type and content,
 with a specific format.
 """
+import requests
+
 
 if __name__ == "__main__":
     # URL to fetch
