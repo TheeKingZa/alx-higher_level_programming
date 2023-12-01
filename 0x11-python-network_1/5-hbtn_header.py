@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-
-import sys
-import requests
-
 """
 Display the X-Request-Id header
 variable of a request to a given
 URL
 """
+import sys
+import requests
+
 
 if __name__ == "__main__":
     # Get the URL from the command-line arguments
