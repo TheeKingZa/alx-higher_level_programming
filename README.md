@@ -18,8 +18,11 @@
 * [More Queries](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries/README.md)
 * [Object_Relational_Mapping](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md)
 * [Network 0](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x10-python-network_0/README.md)
+* [Network 1](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x11-python-network_1/README.md)
 * [Warm Up](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
 * [Objects, Scopes and Closures](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
+
+---
 
 * Other projects
      * [Fix_My_Code_Challenge](https://github.com/TheeKingZa/fix_my_code_challenge/tree/master/README.md)
@@ -30,6 +33,6 @@
      * [Binary_Trees](https://github.com/TheeKingZa/binary_trees/tree/master/README.md)
      * [Monty](https://github.com/TheeKingZa/monty/tree/master/README.md)
      * [Sorting_Algorithms](https://github.com/TheeKingZa/sorting_algorithms/tree/master/README.md)
-
-[^](#alx)
+---
+[^](#higher-level-programming)
 ====================================================================================
