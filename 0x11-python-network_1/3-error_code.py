@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
 """
-This script takes a URL as a command-line argument and attempts to open and read
-the URL using an HTTP GET request. If successful, it prints the decoded response.
-If the request results in an HTTP error, it prints the error code.
+This script takes a URL as a command-line
+argument and attempts to open and read
+the URL using an HTTP GET request.
+If successful, it prints the decoded response.
+If the request results in an HTTP error,
+it prints the error code.
 """
 
 if __name__ == "__main__":
