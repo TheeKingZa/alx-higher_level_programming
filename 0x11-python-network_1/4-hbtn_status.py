@@ -4,17 +4,25 @@ import requests
 
 """
 This script fetches the content of
-https://intranet.hbtn.io/status using the
-requests module and prints information
-about the response, including its type
-and content.
+https://alx-intranet.hbtn.io/status
+using the requests module and prints
+information about the response,
+including its type and content,
+with a specific format.
 """
 
 if __name__ == "__main__":
-    # Make an HTTP GET request to https://....
-    r = requests.get("https://intranet.hbtn.io/status")
+    # URL to fetch
+    url = "https://alx-intranet.hbtn.io/status"
 
-    # Print information about the response
-    print("Body response: ")
-    print("\t- type: {}".format(type(r.text)))
-    print("\t- content: {}".format(r.text))
+    # Make an HTTP GET request to the specified URL
+    response = requests.get(url)
+
+    # Print header for the response information
+    print("Body response:")
+
+    # Print the type of the response content
+    print("\t- type: {}".format(type(response.text)))
+
+    # Print the content of the response
+    print("\t- content: {}".format(response.text))
