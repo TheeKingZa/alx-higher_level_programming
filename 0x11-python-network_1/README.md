@@ -1,5 +1,5 @@
 # Network 1
-[]() 0x11 []()
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x10-python-network_0/README.md) 0x11 []()
 ---
 
 Read or watch:
