@@ -21,6 +21,8 @@
 * [Warm Up](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
 * [Objects, Scopes and Closures](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
 
+---
+
 * Other projects
      * [Fix_My_Code_Challenge](https://github.com/TheeKingZa/fix_my_code_challenge/tree/master/README.md)
      * [AirBnB_Clone](https://github.com/TheeKingZa/airbnb_clone/tree/master/README.md)
@@ -30,6 +32,6 @@
      * [Binary_Trees](https://github.com/TheeKingZa/binary_trees/tree/master/README.md)
      * [Monty](https://github.com/TheeKingZa/monty/tree/master/README.md)
      * [Sorting_Algorithms](https://github.com/TheeKingZa/sorting_algorithms/tree/master/README.md)
-
+---
 [^](#alx)
 ====================================================================================
