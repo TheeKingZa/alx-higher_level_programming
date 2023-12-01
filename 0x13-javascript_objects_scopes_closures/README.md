@@ -1,5 +1,5 @@
 # Javascript Objects Scopes Closures
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md) 0x13 [#](https://github.com/TheeKingZa/Portfolio/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md) 0x13 [#](https://github.com/TheeKingZa/Portfolio)
 ---
 
 # NEED TO KNOW!
