@@ -1,5 +1,5 @@
 # Network 0
-[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md) 0x10 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
+[<](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping/README.md) 0x10 [>](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x11-python-network_1/README.md)
 ---
 Read or watch:
    * [HTTPS(hyperText Transfer Protocol)](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
