@@ -1,5 +1,4 @@
 # Web Scrapping
----
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/README.md) 0x14 [#]()
 ---
 # JavaScript: Introduction
