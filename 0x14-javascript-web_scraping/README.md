@@ -132,6 +132,9 @@ JavaScriptCode:
 # More info
 ---
 <div align="center">
+<ul>
+	<li>Rules of Standard + <a href="https://github.com/standard/semistandard">semicolons on top<a/></li>	
+</ul>
 <h1>Install Node 14</h1>
 <p>
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
