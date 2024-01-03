@@ -42,7 +42,11 @@ JavaScript's versatility, ease of learning, and widespread use in web developmen
 - **Versatility**: JavaScript can be used for both front-end and back-end development, making it a full-stack language.
 - **Asynchronous Programming**: The language supports asynchronous operations, enabling efficient handling of multiple tasks simultaneously.
 - **Community and Ecosystem**: A vast community and an extensive ecosystem of libraries and frameworks make JavaScript development efficient and enjoyable.
+---
 
+[^](#need-to-know)
+
+---
 # Manipulating JSON Data
 
 JSON (JavaScript Object Notation) is a lightweight data interchange format widely used for data storage and exchange. JavaScript provides excellent support for manipulating JSON data:
@@ -73,6 +77,10 @@ JavaScriptCode:
 	    return JSON.stringify(jsonObject);
 	}
 ```
+
+[^](#need-to-know)
+
+---
 # Using Request and Fetch API
 JavaScript facilitates making HTTP requests using the fetch API.
 This allows fetching resources asynchronously and handling responses seamlessly:
@@ -95,6 +103,10 @@ JavaScriptCode:
 	        .catch(error => console.error('Error fetching data:', error));
 	}
 ```
+
+[^](#need-to-know)
+---
+
 # Reading and Writing Files with fs Module
 Node.js, a JavaScript runtime, provides the 'fs' module for file system operations. Reading and writing files becomes straightforward:
 ```
@@ -128,6 +140,8 @@ JavaScriptCode:
 	}
 ```
 ---
+
+[^](#need-to-know)
 
 # More info
 ---
