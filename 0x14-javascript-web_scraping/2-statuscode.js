@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 // Import the 'request' module for making HTTP requests
 const request = require('request');
 
@@ -9,5 +8,5 @@ request.get(process.argv[2]).on('response', function (response) {
   // The callback function receives the 'response' object
 
   // Print the status code of the HTTP response
-  console.log();
+  console.log('code: ${response.statusCode}');
 });
