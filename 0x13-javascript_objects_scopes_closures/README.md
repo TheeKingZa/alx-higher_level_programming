@@ -17,12 +17,19 @@ JavaScript Programming: Unleashing the Amazing
 --------
 # Why JavaScript Programming is Amazing
 ```
-  JavaScript is an amazing programming language known for its versatility and widespread use in web development.
-  Its dynamic nature and ability to run on the client side make it a powerhouse for creating interactive and dynamic web applications.
+  JavaScript is an amazing programming language known for
+  its versatility and widespread use in web development.
+  Its dynamic nature and ability to run on the client side
+  make it a powerhouse for
+  creating interactive and dynamic web applications.
 ```
 # Creating an Object in JavaScript
 ```
-  In JavaScript, objects are fundamental data structures. You can create an object using literal notation or the  constructor. Example:
+  In JavaScript, objects are fundamental data structures.
+  You can create an object using literal
+  notation or the  constructor.
+
+Example:
 
   // Literal notation
   let myObject = { key: 'value' };
@@ -50,7 +57,8 @@ In JavaScript,  is a primitive value automatically assigned to variables that ha
 ```
   JavaScript is a dynamically-typed language,
   meaning variable types are determined at runtime.
-  Understanding variable types and scope is essential for writing robust and maintainable code.
+  Understanding variable types and scope is essential
+  for writing robust and maintainable code.
   Variable scope defines where in your code a variable is accessible.
 ```
 
@@ -69,12 +77,14 @@ In JavaScript,  is a primitive value automatically assigned to variables that ha
   In JavaScript,
   each object has an associated prototype,
   and objects can inherit properties and methods from their prototype.
-  Understanding prototypes is crucial for effective object-oriented programming in JavaScript.
+  Understanding prototypes is crucial for effective
+  object-oriented programming in JavaScript.
 ```
 # Inheriting an Object from Another
 ```
   JavaScript supports prototypal inheritance,
-  where objects can inherit properties and methods from other objects. Here's a basic example:
+  where objects can inherit properties and methods from other objects.
+  Here's a basic example:
 
   // Parent object
   function Animal(name) {
