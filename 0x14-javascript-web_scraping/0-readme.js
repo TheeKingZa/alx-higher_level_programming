@@ -2,7 +2,7 @@ const fs = require('fs');
 
 /**
  * Reads and prints the content of a file.
- * @param {string} filePath - The path of the file to read.
+ * @param {string} filePath -The path of the file to read.
   */
 function readFileContent(filePath) {
 	// Use fs.readFile to asynchronously read the file content
