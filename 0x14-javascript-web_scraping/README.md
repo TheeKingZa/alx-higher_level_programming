@@ -4,10 +4,12 @@ JavaScript
 ---
 [<](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x13-javascript_objects_scopes_closures/README.md) 0x14 [#]()
 ---
-
+```
 JavaScript is a versatile and powerful programming language that has become a cornerstone in web development. Its ability to run on the client side, interact with the Document Object Model (DOM), and seamlessly communicate with servers makes it an essential tool for building dynamic and interactive web applications.
 
 This README.md aims to highlight the amazing aspects of JavaScript programming, focusing on manipulating JSON data, utilizing the request and fetch API, and mastering file operations using the fs module.
+```
+
 ---
 
 # Resources
