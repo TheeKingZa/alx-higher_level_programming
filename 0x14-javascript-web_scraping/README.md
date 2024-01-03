@@ -133,8 +133,10 @@ JavaScriptCode:
 ---
 <div align="center">
 <ul>
-	<li>Rules of Standard + <a href="https://github.com/standard/semistandard">semicolons on top<a/></li>	
+	<li><a href="https://standardjs.com/rules.html">Rules of Standard</a> + <a href="https://github.com/standard/semistandard">semicolons on top<a/></li>	
 </ul>
+<p>Also as reference: <a href="https://github.com/airbnb/javascript">AirBnB style.</a></p>
+
 <h1>Install Node 14</h1>
 <p>
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
