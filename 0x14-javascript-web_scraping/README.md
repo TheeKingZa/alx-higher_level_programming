@@ -135,19 +135,22 @@ JavaScriptCode:
 <h1>Install Node 14</h1>
 <p>
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
+</p>
+<p>$ sudo apt-get install -y nodejs
 </p>
 <h1>Install semi-standard</h1>
-<h3>Documentation</h3>
+<h3><a href="https://github.com/standard/semistandard">Documentation</a></h3>
 <p>
 $ sudo npm install semistandard --global
 </p>
 <h1>Install request module and use it</h1>
-<h3>Documentation</h3>
+<h3><a href="https://github.com/request/request">Documentation</a></h3>
 <p>
 $ sudo npm install request --global
 $ export NODE_PATH=/usr/lib/node_modules
 </p>
+
+<p>Notes: Request module has been deprecated since February 2020 - the team is considering alternative to replace this module - however, it’s a really simple and powerful module for practicing web-scraping in JavaScript (and still used a lot in the industry)</p>
 </div>
 
 ---
