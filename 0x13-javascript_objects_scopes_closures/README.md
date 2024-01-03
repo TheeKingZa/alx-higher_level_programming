@@ -108,6 +108,6 @@ In JavaScript,  is a primitive value automatically assigned to variables that ha
 <div align="center">
   <p>Feel free to customize this README to fit your specific needs. Happy coding!</p>
 </div>
----
+
 
 [^](#need-to-know)
