@@ -123,7 +123,7 @@ JavaScriptCode:
 
 # More info
 ---
-<div>
+<div align="center">
 <h1>Install Node 14</h1>
 <p>
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
