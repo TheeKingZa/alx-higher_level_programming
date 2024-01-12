@@ -22,6 +22,7 @@
 * [Warm Up](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x12-javascript-warm_up/README.md)
 * [Objects, Scopes and Closures](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures/README.md)
 * [Web Scraping](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/README.md)
+* [Web JQuery](https://github.com/TheeKingZa/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/README.md)
 
 ---
 
