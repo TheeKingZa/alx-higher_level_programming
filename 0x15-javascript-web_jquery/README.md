@@ -7,14 +7,14 @@ Welcome to the Web jQuery project! In this repository, you'll find a collection 
 
 # Need-To-Know
 1. [Why jQuery?](#1-why-jquery)
-2. [Selecting HTML Elements](#selecting-html-elements)
-3. [Selectors: ID, Class, and Tag](#selectors-id-class-and-tag)
-4. [Modifying Element Style](#modifying-element-style)
-5. [Getting and Updating Content](#getting-and-updating-content)
-6. [DOM Manipulation](#dom-manipulation)
-7. [Making GET Requests with jQuery Ajax](#making-get-requests-with-jquery-ajax)
-8. [Making POST Requests with jQuery Ajax](#making-post-requests-with-jquery-ajax)
-9. [Event Handling](#event-handling)
+2. [Selecting HTML Elements](#2-selecting-html-elements)
+3. [Selectors: ID, Class, and Tag](#3-selectors-id-class-and-tag)
+4. [Modifying Element Style](#4-modifying-element-style)
+5. [Getting and Updating Content](#5-getting-and-updating-content)
+6. [DOM Manipulation](#6-dom-manipulation)
+7. [Making GET Requests with jQuery Ajax](#7-making-get-requests-with-jquery-ajax)
+8. [Making POST Requests with jQuery Ajax](#8-making-post-requests-with-jquery-ajax)
+9. [Event Handling](#9-event-handling)
 
 ---
 
