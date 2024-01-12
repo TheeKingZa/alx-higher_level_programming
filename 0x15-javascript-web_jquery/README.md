@@ -6,7 +6,7 @@
 Welcome to the Web jQuery project! In this repository, you'll find a collection of resources and examples showcasing the power of jQuery in simplifying front-end development. jQuery is a fast and concise JavaScript library that makes various tasks, such as DOM manipulation and event handling, much more straightforward.
 
 # Need-To-Know
-1. [Why jQuery?](#why-jquery)
+1. [Why jQuery?](#1-why-jquery)
 2. [Selecting HTML Elements](#selecting-html-elements)
 3. [Selectors: ID, Class, and Tag](#selectors-id-class-and-tag)
 4. [Modifying Element Style](#modifying-element-style)
